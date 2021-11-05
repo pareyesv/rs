@@ -1,6 +1,6 @@
 # Reproducible Science. PhD Training Programme at BSC, 2021
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Notes/slides for the course Reproducible Science. PhD Training Programme at BSC
@@ -18,6 +18,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://anaraven.bitbucket.io/"><img src="https://avatars.githubusercontent.com/u/7228142?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andres Aravena</b></sub></a><br /><a href="#content-anaraven" title="Content">🖋</a></td>
+    <td align="center"><a href="http://www.dim.uchile.cl/~alsilva/"><img src="https://avatars.githubusercontent.com/u/30263736?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alonso Silva Allende</b></sub></a><br /><a href="#content-alonsosilvaallende" title="Content">🖋</a></td>
   </tr>
 </table>
 
