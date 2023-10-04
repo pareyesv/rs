@@ -1,12 +1,12 @@
-# Reproducible Science. PhD Training Programme at BSC, 2021
+# Reproducible Science. PhD Training Programme at BSC
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Notes/slides for the course Reproducible Science. PhD Training Programme at BSC
 
-- [notes](https://hackmd.io/@pareyesv/rs2021?type=view)
-- [slides mode](https://hackmd.io/@pareyesv/rs2021?type=slide)
+- [notes](https://hackmd.io/@pareyesv/rs?type=view)
+- [slides mode](https://hackmd.io/@pareyesv/rs?type=slide)
 
 ## Contributors ✨
 
