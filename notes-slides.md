@@ -3,9 +3,10 @@ title: Reproducible Science
 author:
 - Andrés Aravena
 - Patricio Reyes
-date: 2021-11-05
+date: 2023-10-06
 slideOptions:
-    transition: 'slide'
+  theme: white
+  transition: slide
 ---
 
 # Hello :hand:
@@ -27,10 +28,9 @@ slideOptions:
 
 - researcher at BSC, [Data&Vis Team](http://bsc.es/viz/)
 - member of PyBCN
-- urban mobility/planning
+- Urban (Spatial) Data Analysis
 - repos
     - [cuentalo](https://github.com/BSCCNS/cuentalo-dataset)
-    - [Landscape Steiner](https://github.com/pareyesv/landscape_steiner) ==looking for collaborators==
 - twitter: @pareyesv
 - github: [pareyesv](https://github.com/pareyesv)
 
@@ -145,10 +145,21 @@ slideOptions:
 
 ----
 
-## reproducibility
+## Reproducibility
 
-- [Reproducibility PI Manifesto :: Lorena A. Barba Group](https://lorenabarba.com/gallery/reproducibility-pi-manifesto/)
-- [slides](https://speakerdeck.com/labarba/how-to-run-a-lab-for-reproducible-research)
+- (2012) [Reproducibility PI Manifesto :: Lorena A. Barba Group](https://lorenabarba.com/gallery/reproducibility-pi-manifesto/)
+    - [slides](https://speakerdeck.com/labarba/how-to-run-a-lab-for-reproducible-research)
+        - [slide 8: Manifesto](https://speakerdeck.com/labarba/how-to-run-a-lab-for-reproducible-research?slide=8)
+- (2022) [10 years from the Reproducibility PI Manifesto, it’s time to Transform to Open Science :: Lorena A. Barba Group](https://lorenabarba.com/figshare/10-years-from-the-reproducibility-pi-manifesto-its-time-to-transform-to-open-science/)
+    - [TOPS’ Guide to Open Science — NASA's Transform to Open Science Mission](https://nasa.github.io/Transform-to-Open-Science-Book/Open_Science_Cookbook/readme.html)
+        - [Section 1: Core Open Science Skills](https://nasa.github.io/Transform-to-Open-Science-Book/Open_Science_Cookbook/Your_Open_Science_Journey.html#section-1-core-open-science-skills)
+
+----
+
+## Guide for reproducible research
+
+- [Guide for Reproducible Research — The Turing Way](https://the-turing-way.netlify.app/reproducible-research/reproducible-research)
+    - [Checklist — The Turing Way](https://the-turing-way.netlify.app/reproducible-research/open/open-checklist)
 
 ----
 
@@ -316,10 +327,13 @@ slideOptions:
 
 ----
 
-- [Data science ethics checking list](https://deon.drivendata.org/#default-checklist)
+## Ethical Research
+
+- [Guide for Ethical Research — The Turing Way](https://the-turing-way.netlify.app/ethical-research/ethical-research)
+- [Data Science Ethics Checking List](https://deon.drivendata.org/#default-checklist)
 - [Ethics AI strategy](https://www.google.com/url?sa=t&source=web&rct=j&url=https://bionic-h2020.eu/wp-content/uploads/2020/08/D9.5-Ethics-Strategy.pdf&ved=2ahUKEwjj84_73anyAhUO14UKHZKXDC8QFnoECC0QAQ&usg=AOvVaw22awnXP9Boqtte3wVBxXwl)
-- [Ethics & fairness assessment](https://op.europa.eu/es/publication-detail/-/publication/d3988569-0434-11ea-8c1f-01aa75ed71a)
-- [Ethics self-assessment](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/how-to-complete-your-ethics-self-assessment_en.pdf)
+- [Ethics & Fairness Assessment](https://op.europa.eu/es/publication-detail/-/publication/d3988569-0434-11ea-8c1f-01aa75ed71a)
+- [Ethics Self-Assessment](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/how-to-complete-your-ethics-self-assessment_en.pdf)
 
 
 ---
@@ -328,18 +342,18 @@ slideOptions:
 
 ----
 
-- who owns the rights to your articles?
+- Who owns the rights to your articles?
     - the publisher?
     - the authors?
 - [Why Open Access? - PLOS](https://plos.org/open-science/why-open-access/)
-- [Gold open access and green open access: what's the difference?](https://www.publisso.de/en/no_cache/advice/publishing-advice-faqs/difference-between-gold-and-green-open-access/)
+- [Gold Open Access](https://the-turing-way.netlify.app/reproducible-research/open/open-access.html#gold-open-access-publishing) & [Green Open Access](https://the-turing-way.netlify.app/reproducible-research/open/open-access.html#self-archiving)
 
 ----
 
 
 ## Zenodo
 
-- upload project versions to [Zenodo](https://zenodo.org/)
+- Upload project versions to [Zenodo](https://zenodo.org/)
     - funded by EU
     - maintained by CERN
 
@@ -347,11 +361,25 @@ slideOptions:
 
 ## Examples
 
-- cuentalo dataset
-    - [BSCCNS/cuentalo-dataset: Dataset used in http://proyectocuentalo.org/](https://github.com/BSCCNS/cuentalo-dataset#citing-the-dataset)
-    - [v0.1.1](https://zenodo.org/record/2585527)
-    - [all-versions](https://doi.org/10.5281/zenodo.2585526)
-- [urbana](https://zenodo.org/record/5484501)
+- Cuentalo dataset
+    - [BSCCNS/cuentalo-dataset: Dataset used in http://proyectocuentalo.org/](https://github.com/BSCCNS/cuentalo-dataset)
+    - Versions on Zenodo
+        - [v0.1.1](https://zenodo.org/record/2585527)
+        - [all-versions](https://doi.org/10.5281/zenodo.2585526)
+- [GitHub: egregorimar/urbana: Urban Data Analysis](https://github.com/egregorimar/urbana)
+    - [Zenodo: Urbana](https://zenodo.org/record/5484501)
+- [GitHub: renswvw/CircularCityIndexSpain](https://github.com/renswvw/CircularCityIndexSpain#about-the-thesis)
+    - [ Zenodo: renswvw/CircularCityIndexSpain](https://zenodo.org/record/7991019)
+
+----
+
+## Citations on GitHub
+
+- Cuentalo dataset
+    - [BSCCNS/cuentalo-dataset: Dataset used in http://proyectocuentalo.org/](https://github.com/BSCCNS/cuentalo-dataset)
+        - [Citing the dataset](https://github.com/BSCCNS/cuentalo-dataset#citing-the-dataset)
+        - GitHub?
+            - [About CITATION files - GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
 
 ----
 
