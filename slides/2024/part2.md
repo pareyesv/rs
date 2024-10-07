@@ -134,45 +134,6 @@ A `README` file in each folder can explain the purpose of each file
 
 It takes time to write them, but it saves time in the long run
 
-# Define your projects {.center .good}
-
-## What is a "project"?
-
-<!-- cSpell:ignore cookiecutter tiago schuster -->
-
-We can distinguish four categories
-
-+ _Projects_ with well-defined goals and deadlines, e.g. a thesis
-+ _Areas_ that are permanently active, like "health" or "family"
-+ _Resources_ that can be useful for several projects, like code libraries, or general interest papers
-+ _Archives_, anything that is no longer active. Can be copied to external media and stored out of the computer
-
-Each one requires a separate folder
-
-:::source  
-Tiago Forte
-_Building a Second Brain_,
-Simon and Schuster, 2022  
-:::
-
-## Spaces
-
-Personally I like to group my Projects/Areas/Resources/ Archives by major topic
-
-:::small
-
-+ Teaching
-  + Each course is a project
-+ Research
-+ Work
-  + Contracts, bureaucracy
-+ Personal
-  + Health, Bank, Travel, Family
-+ Learning
-+ Hobby
-
-:::
-
 # Filenames {.center .good}
 
 ## Be coherent when choosing filenames
@@ -239,85 +200,44 @@ There is no ambiguity of meaning
 
 Sorting alphabetically, numerically, and chronologically give the same result
 
-# Structured Documents {.center .good}
+# Define your projects {.center .good}
 
-## Structured documents
+## What is a "project"?
 
-You probably know that using a good _data structure_ can dramatically improve an algorithm
+<!-- cSpell:ignore cookiecutter tiago schuster -->
 
-And you use _structured programs_
+We can distinguish four categories
 
-The same applies to structuring our documents
++ _Projects_ with well-defined goals and deadlines, e.g. a thesis
++ _Areas_ that are permanently active, like "health" or "family"
++ _Resources_ that can be useful for several projects, like code libraries, or general interest papers
++ _Archives_, anything that is no longer active. Can be copied to external media and stored out of the computer
 
-Maybe you have used LaTeX, or Markdown
+Each one requires a separate folder
 
-Maybe you know HTML
-
-## Separation of concerns
-
-<!-- cSpell:ignore Lamport Entscheidungsproblem beamer -->
-
-The key idea is to describe _what things are_, not _how they look_
-
-Describe the role of text, not the "looks"
-
-Separate style from structure
-
-::: source
-This part is based on the ideas discussed in "LaTeX: A Document Preparation System" by Leslie Lamport (1986).
+:::source  
+Tiago Forte
+_Building a Second Brain_,
+Simon and Schuster, 2022  
 :::
 
-## It is like a house {.large}
+## Spaces
 
-Structure makes the house solid and comfortable
+Personally I like to group my Projects/Areas/Resources/ Archives by major topic
 
-If you only do decoration, the house looks nice but it is not solid
+:::small
 
-Structure of the walls come first
++ Teaching
+  + Each course is a project
++ Research
++ Work
+  + Contracts, bureaucracy
++ Personal
+  + Health, Bank, Travel, Family
++ Learning
++ Hobby
 
-Painting the walls in a nice color is secondary
-
-## Structural elements
-
-+ Sections, subsections, paragraphs
-+ Figures and Tables
-+ Lists
-+ References
-+ Equations
-+ Metadata
-  + Title
-  + Authors
-  + Affiliations
-  + Dates: submission, acceptance
-  + Media/format
-
-# Final comments {.center .good}
-
-## Take care of yourself
-
-+ Drink a lot of water
-  + Especially when you drink alcohol
-+ Get enough sleep
-  + Don't fry your brain, you only have one
-+ Try to make a routine. Minimize trivial decisions
-  + Save your energy for important things
-+ Go for a walk every day
-
-## Become a writer
-
-+ Write every day. No exceptions.
-  + Start with 150 or 200 daily words
-  + Ideal is 750 daily words
-
-+ Once you see yourself as "someone who writes every day", it will be easy to write papers, projects, thesis, etc.
-
-+ Get addicted to write, as you are addicted to social media
-
-+ Try the _Pomodoro technique_
-
-# Thank you! {.center .good}
-
-![](images/03_BSC-PhD-Post-Session-Survey-Research-Professionalism-Oct-8.png)
+:::
 
 # Collaborative code writing {.center .good}
 
@@ -435,6 +355,84 @@ Online platforms allow you to create branches _from the issue page_
 These branches have names corresponding to the issue
 
 <https://github.com/anaraven/msr/issues/1>{target="_blank"}
+
+<!-- # Structured Documents {.center .good}
+
+## Structured documents
+
+You probably know that using a good _data structure_ can dramatically improve an algorithm
+
+And you use _structured programs_
+
+The same applies to structuring our documents
+
+Maybe you have used LaTeX, or Markdown
+
+Maybe you know HTML
+
+## Separation of concerns
+
+The key idea is to describe _what things are_, not _how they look_
+
+Describe the role of text, not the "looks"
+
+Separate style from structure
+
+::: source
+This part is based on the ideas discussed in "LaTeX: A Document Preparation System" by Leslie Lamport (1986).
+:::
+
+## It is like a house {.large}
+
+Structure makes the house solid and comfortable
+
+If you only do decoration, the house looks nice but it is not solid
+
+Structure of the walls come first
+
+Painting the walls in a nice color is secondary
+
+## Structural elements
+
++ Sections, subsections, paragraphs
++ Figures and Tables
++ Lists
++ References
++ Equations
++ Metadata
+  + Title
+  + Authors
+  + Affiliations
+  + Dates: submission, acceptance
+  + Media/format -->
+
+# Final comments {.center .good}
+
+## Take care of yourself
+
++ Drink a lot of water
+  + Especially when you drink alcohol
++ Get enough sleep
+  + Don't fry your brain, you only have one
++ Try to make a routine. Minimize trivial decisions
+  + Save your energy for important things
++ Go for a walk every day
+
+## Become a writer
+
++ Write every day. No exceptions.
+  + Start with 150 or 200 daily words
+  + Ideal is 750 daily words
+
++ Once you see yourself as "someone who writes every day", it will be easy to write papers, projects, thesis, etc.
+
++ Get addicted to write, as you are addicted to social media
+
++ Try the _Pomodoro technique_
+
+# Thank you! {.center .good}
+
+![](images/03_BSC-PhD-Post-Session-Survey-Research-Professionalism-Oct-8.png)
 
 <style>
 .reveal .block {
