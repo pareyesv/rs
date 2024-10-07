@@ -1,0 +1,16 @@
+digraph {
+rankdir=BT
+node [shape="none"]
+edge [arrowhead="none"]
+paper -> docs -> project
+talk -> docs
+thesis -> docs
+"2022-11-05" -> data -> project
+"2022-10-25" -> data
+scripts -> project
+src -> project
+bin -> project
+"2022-10-08" ->results -> project
+"2022-10-12" ->results
+refs -> project
+}
