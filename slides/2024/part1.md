@@ -34,6 +34,16 @@ But it can also be stressful
   + statistical analysis of gene expression
   + generative AI
 
+## Plan
+
++ Part 1
++ Short break
++ Part 2
++ Long break
++ Part 3
++ Short break
++ Part 4
+
 ## Focus on Philosophy, not Tools
 
 Tools will change in time. There will be new tools
@@ -208,7 +218,7 @@ It is hard to improve if we don't know we are bad
 Kruger, J., & Dunning, D. (1999). Unskilled and unaware of it: How difficulties in recognizing one’s own incompetence lead to inflated self-assessments. _Journal of Personality and Social Psychology_, _77_(6), 1121–1134.
 :::
 
-## You are not your work {.center .good-inv}
+## You are not your work {.center .good-inv .Large}
 
 ## Two sides of the coin
 
@@ -249,7 +259,7 @@ Even if we work alone, we are still communicating
 
 Each one of these interactions can improve following a good practice
 
-## Communicate with **your supervisor**
+<!-- ## Communicate with **your supervisor**
 
 Research results are not enough
 
@@ -296,7 +306,7 @@ We need to be aware of the _ethical_ implications
 + Privacy concerning test subject
 + Truth and academic integrity
 
-<!-- > This is reflected in the _Reproducibility Crisis_ -->
+> This is reflected in the _Reproducibility Crisis_
 
 ## …with your **future self**
 
@@ -306,7 +316,7 @@ As they say: "The past is a foreign country"
 
 Undocumented code/protocols are hard to understand…
 
-and you can only blame yourself
+and you can only blame yourself -->
 
 # Email {.center .good}
 
@@ -326,22 +336,6 @@ An email should provide just enough information to answer these five questions:
 Guy Kawasaki, cited in
 Vozza, Stephanie. 2013. _‘Productivity Lifesaver: The 5-Sentence Email’. Entrepreneur._ <https://morideno.com/write-five-sentences-about> (October 3, 2023).  
 :::
-
-## Consider time zones
-
-If you collaborate with people abroad, remember that your 10am may not be their 10am
-
-Sometimes your "tomorrow" is not their "tomorrow"
-
-**Be explicit on the weekday, the date and the time**
-
-Use GMT/UTC based timezones.  
-Other abbreviations are ambiguous  
-
-+ AMT is Armenia Time or Amazon Time
-+ CEST = CEDT = ECST = MESZ = UTC+2
-
-## Be Explicit {.center .Large}
 
 ## Not too long
 
@@ -412,6 +406,10 @@ The Subject should say why to read the message
 
   > "(No subject)", "message", "hello"
 
+::: source  
+<https://www.boomeranggmail.com/l/email-etiquette.html>{target="_blank"}  
+:::
+
 ## You can even say everything in the subject
 
 > "We wait for you at classroom 1 [EOM]"
@@ -422,7 +420,14 @@ This shows that theres is nothing more to say
 
 All the message is in the subject
 
-No need to open the email
+There is no need to open the email
+
+::: source  
+This seems a good idea but I have never used it nor seen used by anybody
+
+<https://www.lifewire.com/what-is-eom-end-of-message-1171156>{target="_blank"}  
+<https://blog.boomerangapp.com/2013/07/email-etiquette-how-to-write-subject-only-email/>{target="_blank"}  
+:::
 
 ## What about this one? {.shadow .center-h .full-h}
 
@@ -509,5 +514,21 @@ Use instead a shared folder in the cloud
 **Exception:** To leave an explicit trace of a given document at a fixed date
 
 (for example, students' homework)
+
+# Be Explicit {.center .good}
+
+## Be explicit on the weekday, the date and the time
+
+If you collaborate with people abroad, remember that your 10am may not be their 10am
+
+Sometimes your "tomorrow" is not their "tomorrow"
+
+## Consider time zones
+
+Use GMT/UTC based timezones.  
+Other abbreviations are ambiguous  
+
++ AMT is Armenia Time or Amazon Time
++ CEST = CEDT = ECST = MESZ = UTC+2
 
 # Let's have a break now {.center .good-inv}
