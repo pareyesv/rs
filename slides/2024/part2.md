@@ -18,7 +18,7 @@ It leads to _chaos and confusion_
 
 ## {.center-h .full-v .shadow}
 
-![](images/FINAL-doc.png)
+![](images/FINAL-doc.jpg)
 
 ## Use an Online service
 
@@ -287,10 +287,6 @@ It has a command line interface, and many tools handle it directly
 
 **Recommended:** if you use the command line, try `lazygit`
 
-## Online platforms
-
-Git is often used with a web platform like _GitHub_, _GitLab_, _BitBucket_ or similar, either public or private
-
 ## Commits
 
 The key idea is to record **the changes** between code versions
@@ -330,7 +326,9 @@ The hard part is to **keep track** and **merge** them
 
 <!-- If two people modified the same part of a file, there will be a conflict -->
 
-## Issues
+## Online platforms and Issues
+
+Git is often used with a web platform like _GitHub_, _GitLab_, _BitBucket_ or similar, either public or private
 
 These sites add extra functionality. For instance, they allow us to track **issues** with the code
 
@@ -342,7 +340,7 @@ Every issue describes a missing characteristic
 The title should describe **what the state should be once the issue is solved**
 :::
 
-## Examples of issue names
+<!-- ## Examples of issue names -->
 
 ## Branch names
 
@@ -356,7 +354,7 @@ These branches have names corresponding to the issue
 
 <https://github.com/anaraven/msr/issues/1>{target="_blank"}
 
-<!-- # Structured Documents {.center .good}
+# Structured Documents {.center .good}
 
 ## Structured documents
 
@@ -404,7 +402,7 @@ Painting the walls in a nice color is secondary
   + Authors
   + Affiliations
   + Dates: submission, acceptance
-  + Media/format -->
+  + Media/format
 
 # Final comments {.center .good}
 
@@ -432,7 +430,7 @@ Painting the walls in a nice color is secondary
 
 # Thank you! {.center .good}
 
-![](images/03_BSC-PhD-Post-Session-Survey-Research-Professionalism-Oct-8.png)
+<!-- ![](images/03_BSC-PhD-Post-Session-Survey-Research-Professionalism-Oct-8.png) -->
 
 <style>
 .reveal .block {

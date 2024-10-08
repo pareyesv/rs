@@ -34,7 +34,7 @@ But it can also be stressful
   + statistical analysis of gene expression
   + generative AI
 
-## Plan
+<!-- ## Plan
 
 + Part 1
 + Short break
@@ -42,7 +42,7 @@ But it can also be stressful
 + Long break
 + Part 3
 + Short break
-+ Part 4
++ Part 4 -->
 
 ## Focus on Philosophy, not Tools
 
@@ -204,6 +204,14 @@ and it is hard to see how much we have learned
 
 **Solution:** Look at your journal and _reflect_ on how much have you learned in the last year
 
+## Impostor syndrome {.center .full-v}
+
+![](/images/imgs.xkcd.com/comics/impostor_syndrome_2x.png)
+
+::: source  
+<https://xkcd.com/1954>
+:::
+
 ## We don't know that we don't know
 
 This is the _Dunning-Kruger_ effect
@@ -225,6 +233,10 @@ Kruger, J., & Dunning, D. (1999). Unskilled and unaware of it: How difficulties 
 Impostor Syndrome and Dunning-Kruger effect are mismatches between self-perception and other people's vision of us
 
 To solve that, we can improve our _Communication_ with colleagues and collaborators
+
+::: source
+<https://www.explainxkcd.com/wiki/index.php/1954:_Impostor_Syndrome>  
+:::
 
 ## **A Ph.D. goal is to produce and communicate new knowledge** {.center .black background="yellow" .Large}
 
@@ -259,7 +271,7 @@ Even if we work alone, we are still communicating
 
 Each one of these interactions can improve following a good practice
 
-<!-- ## Communicate with **your supervisor**
+## Communicate with **your supervisor**
 
 Research results are not enough
 
@@ -316,7 +328,7 @@ As they say: "The past is a foreign country"
 
 Undocumented code/protocols are hard to understand…
 
-and you can only blame yourself -->
+and you can only blame yourself
 
 # Email {.center .good}
 
