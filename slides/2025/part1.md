@@ -140,7 +140,7 @@ Some other people used to write a _personal journal_ or _diary_
 
 ## Bullet journal {.fl-r .full-v .shadow}
 
-![](/images/2022/BuJo.jpg)
+![](images/2022/BuJo.jpg)
 
 A bullet journal is
 
@@ -206,7 +206,7 @@ and it is hard to see how much we have learned
 
 ## Impostor syndrome {.center .full-v}
 
-![](/images/imgs.xkcd.com/comics/impostor_syndrome_2x.png)
+![](images/imgs.xkcd.com/comics/impostor_syndrome_2x.png)
 
 ::: source  
 <https://xkcd.com/1954>
