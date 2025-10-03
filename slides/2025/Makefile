@@ -16,5 +16,9 @@ images/%.svg: gv/%.gv
 	dot -Tsvg -o $@ $^
 
 $(OUT)/images/%: images/%
-	cp $^ $@
+	@mkdir -p $(OUT)/images
+	ln $^ $@
 	chmod a+r $@
+
+serve: all
+	cd ../../site ; python3 -m http.server
