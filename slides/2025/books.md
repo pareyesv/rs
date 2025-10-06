@@ -1,18 +1,15 @@
 ---
-title: "Class XX: Time Management"
-description: "Managing time is managing yourself. How can you be a leader if you do not lead yourself?"
-subtitle: Methodology of Scientific Research
+title: "Recommended Books"
+subtitle: "A talk for BSC's Ph.D. students"
 author: Andrés Aravena, PhD
-company: Istanbul University
-date: "June 02, 2024"
-published: false
+date: "October 7, 2025"
 lang: en
 mathjax: false
 ---
 
 # What to do? {.center .good}
 
-## GTD {.fl-r .full-v .shadow}
+## Getting Things Done {.fl-r .full-v .shadow}
 
 ![GTD](images/2022/GTD-2015.jpg)
 
@@ -25,7 +22,7 @@ mathjax: false
     + two minute rule
   + Reference, Someday, Trash
 
-## BuJo {.fl-r .full-v .shadow}
+## Bullet Journal {.fl-r .full-v .shadow}
 
 ![Bujo](images/2022/BuJo.jpg)
 
@@ -47,7 +44,7 @@ mathjax: false
 
 ## Example {.full-v .shadow .center-h}
 
-![](https://www.5sensesll.com/wp-content/uploads/2020/04/IMG_3741-2.jpg)
+![](images/www.5sensesll.com/wp-content/uploads/2020/04/IMG_3741-2.jpg)
 
 ## Digital version  {.full-v .shadow .center-h}
 
@@ -74,7 +71,7 @@ mathjax: false
 
 ## Digital Minimalism  {.fl-r .full-v .shadow}
 
-![](https://cdn.dc5.ro/img-prod/694670713-0.jpeg)
+![](images/cdn.dc5.ro/img-prod/694670713-0.jpeg)
 
 + Avoid social media
 + It is an addiction
@@ -166,7 +163,7 @@ Use it as a compass
 
 ## Second Brain {.fl-r .full-v .shadow}
 
-![](https://static.hebban.nl/covers/00000650/normal/41m03vfrcQL._SX327_BO1%2C204%2C203%2C200_.jpg)
+![](images/static.hebban.nl/covers/00000650/normal/41m03vfrcQL._SX327_BO1,204,203,200_.jpg)
 
 + Zettelkasten
 + Write summaries with your own words
@@ -180,3 +177,7 @@ Use it as a compass
 + Notion
 + Roaming research
 + Obsidian
+
+<style>
+  figcaption {display: none}
+</style>

@@ -15,10 +15,11 @@ $(OUT)/%.html: %.md defaults.yaml template.html
 images/%.svg: gv/%.gv
 	dot -Tsvg -o $@ $^
 
-$(OUT)/images/%: images/%
+$(OUT)/images/%g: images/%g
 	@mkdir -p $(OUT)/images
-	ln $^ $@
-	chmod a+r $@
+	@ln -f "$^" "$@"
+	@chmod a+r "$@"
+	@echo $@
 
 serve: all
 	cd ../../site ; python3 -m http.server
