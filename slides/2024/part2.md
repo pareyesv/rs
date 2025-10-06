@@ -310,13 +310,13 @@ That way your collaborators can know what the commit will do when applied
 Which of these commit messages are clear to you?
 
 + WIP
-+ fix issues crated by cleanup
++ fix issues created by cleanup
 + cleanup backend (untested)
 + small changes in tools
 
 ## Branches
 
-To develope new code but keep the working version, _Git_ uses **branches**
+To develop new code but keep the working version, _Git_ uses **branches**
 
 In other words a commit can be followed by several new commits
 
