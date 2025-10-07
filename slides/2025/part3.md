@@ -90,14 +90,16 @@ William Stafford Noble. _“A Quick Guide to Organizing Computational Biology Pr
 
 ## Folder structure for data projects {.center-h}
 
+Suggested for data analysis projects
+
 ![](images/folder-struct.svg)
 
 ## Role of each folder
 
-+ `docs` is where you write your paper/talk/thesis
 + `data` is anything that you get from outside the computer
 + `results` is what your code produces
 + `code` is where you write your code
++ `docs` is where you write your paper/talk/thesis
 + `bib` to store documents cited in your document
   + if it has a _doi_, it goes here
   + bibliographic database goes here
@@ -266,7 +268,7 @@ it has been my case
 
 ## Version control
 
-If you develope code (or documents in text format), you will probably keep track of it in some _Version Control System_
+If you develop code (or documents in text format), you will probably keep track of it in some _Version Control System_
 
 Advantages
 
@@ -353,6 +355,8 @@ Online platforms allow you to create branches _from the issue page_
 These branches have names corresponding to the issue
 
 <https://github.com/anaraven/msr/issues/1>{target="_blank"}
+
+# Let's have the last break now {.center .good-inv}
 
 <style>
 .reveal .block {
