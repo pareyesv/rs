@@ -22,7 +22,6 @@ variables:
   slideNumber: "c"
   width: 1100
   navigationMode: linear
-  backgroundTransition: default
   css: '/css/reveal-extra.css'
   header-includes: '<script src="/js/header-attrs-2.14/header-attrs.js"></script>'
   mathjax-url: 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
