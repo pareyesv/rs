@@ -17,8 +17,8 @@ images/%.svg: gv/%.gv
 
 $(OUT)/images/%g: images/%g
 	@mkdir -p $(OUT)/images
-	@ln -f "$^" "$@"
-	@chmod a+r "$@"
+	@ln -f '$^' '$@'
+	@chmod a+r '$@'
 	@echo $@
 
 serve: all
