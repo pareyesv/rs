@@ -1,4 +1,4 @@
-## Did you see Ocean's Eleven
+## Have you seen the movie Ocean's Eleven
 
 ![](images/Ocean's_Eleven_2001_Poster.jpg)
 
@@ -22,7 +22,6 @@ By Angela George, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=
 
 By Jen from Boston from South Boston, MA - col and Casey Affleck, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=19711626
 
-
 ## Do you kno him?
 
 ![](images/600px-6.20.09ElliotGould1SecondFilm.jpg)
@@ -30,4 +29,5 @@ By Jen from Boston from South Boston, MA - col and Casey Affleck, CC BY 2.0, htt
 By Elliot_Gould.jpg: Collaboration foundation The 1 Second Film derivative work: Nightscream (talk) - Elliot_Gould.jpg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=7406412
 
 # Faces are important
+
 More than names

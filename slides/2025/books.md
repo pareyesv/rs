@@ -5,9 +5,36 @@ author: Andrés Aravena, PhD
 date: "October 7, 2025"
 lang: en
 mathjax: false
+cSpell: ignore postit bujo maketime helü silvia zettelkasten
 ---
 
 # What to do? {.center .good}
+
+## Kanban {.fl-r .full-v .shadow}
+
+![](http://torak.com/wp-content/uploads/2016/04/kanban-board-simple3-1-02.png)
+
++ Japanese idea
++ Good for teams, but also personal
++ Write tasks in postit cards
++ Put the cards in three or more columns
++ **Limit the size of _work in progress_**
+
+## Example {.full-v .shadow .center-h}
+
+![](images/www.5sensesll.com/wp-content/uploads/2020/04/IMG_3741-2.jpg)
+
+## Digital version  {.full-v .shadow .center-h}
+
+![](images/docs.github.com/assets/cb-550210/mw-1440/images/help/projects-v2/example-board.webp)
+
+## Choosing what to do {.full-v .shadow .center-h}
+
+![](https://luxafor.dk/wp-content/uploads/2018/10/The-Eisenhower-Decision-Matrix-png.png)
+
+# When to do it? {.center .good}
+
+# Books {.center .good}
 
 ## Getting Things Done {.fl-r .full-v .shadow}
 
@@ -31,30 +58,6 @@ mathjax: false
 + Migrate daily/monthly
   + Decide what is important
 + Reflect
-
-## Kanban {.fl-r .full-v .shadow}
-
-![](http://torak.com/wp-content/uploads/2016/04/kanban-board-simple3-1-02.png)
-
-+ Japanese idea
-+ Good for teams, but also personal
-+ Write tasks in postit cards
-+ Put the cards in three or more columns
-+ **Limit the size of _work in progress_**
-
-## Example {.full-v .shadow .center-h}
-
-![](images/www.5sensesll.com/wp-content/uploads/2020/04/IMG_3741-2.jpg)
-
-## Digital version  {.full-v .shadow .center-h}
-
-![](https://blog.trello.com/hs-fs/hubfs/Screen_Shot_2018-07-05_at_2.43.52_PM.png)
-
-## Choosing what to do {.full-v .shadow .center-h}
-
-![](https://luxafor.dk/wp-content/uploads/2018/10/The-Eisenhower-Decision-Matrix-png.png)
-
-# When to do it? {.center .good}
 
 ## Make Time {.fl-r .full-v .shadow}
 
@@ -99,7 +102,7 @@ Use a calendar to block half days
 
 ## The Art of War {.fl-r .full-v .shadow}
 
-![](https://i.ebayimg.com/images/i/392028546878-0-1/s-l1000.jpg)
+![](images/art-of-war.jpg)
 
 + Chinese general
 + minister to King Helü of Wu
@@ -108,7 +111,7 @@ Use a calendar to block half days
 
 ## The War of Art {.fl-r .full-v .shadow}
 
-![](https://akzamkowy.org/img/the-war-of-art-steven-pressfield-free-pdf.jpg)
+![](images/war-of-art.jpg)
 
 "There’s a secret that real writers know that wannabe writers don’t, and the secret is this:
 
@@ -118,33 +121,37 @@ What’s hard is sitting down to write.
 
 What keeps us from sitting down is Resistance.
 
-## Do the work {.fl-r .full-v .shadow}
-
-![](https://upload.wikimedia.org/wikipedia/en/9/9d/Do_the_work.jpg)
-
-Resistance cannot be seen, touched, heard, or smelled.
-
-But it can be felt.
-
-We experience it as an energy field radiating from a work-in-potential.
-
-It’s a repelling force. It’s negative.
-
-Its aim is to shove us away, distract us, prevent us from doing our work.
-
 ## Resistance
 
-The following is a list, in no particular order, of activities that often trigger Resistance:
+"Resistance cannot be seen, touched, heard, or smelled.
 
-1. The pursuit of any calling in writing, painting, music, film, dance, or any creative art, however marginal or unconventional.
+"But it can be felt.
 
-2. The launching of any entrepreneurial venture or enterprise, for profit or otherwise.
+"We experience it as an energy field radiating from a work-in-potential.
 
-3. Any diet or health regimen.
+"It’s a repelling force. It’s negative.
 
-6. Any course or program designed to overcome an unwholesome habit or addiction.
+"Its aim is to shove us away, distract us, prevent us from doing our work."
 
-In other words, any act that rejects immediate gratification in favor of long-term growth, health, or integrity. Or, expressed another way, any act that derives from our higher nature instead of our lower. Any of these will elicit Resistance.
+## Things that trigger Resistance
+
+"The following is a list, in no particular order, of activities that often trigger Resistance:
+
+## 1. The pursuit of any calling in writing, painting, music, film, dance, or any creative art, however marginal or unconventional
+
+## 2. The launching of any entrepreneurial venture or enterprise, for profit or otherwise
+
+## 3. Any diet or health regimen
+
+## 6. Any course or program designed to overcome an unwholesome habit or addiction
+
+## In other words
+
+any act that rejects immediate gratification in favor of long-term growth, health, or integrity.
+
+any act that derives from our higher nature instead of our lower.
+
+Any of these will elicit Resistance.
 
 ## Resistance marks the way {.center .black background="var(--color-yellow)"}
 
