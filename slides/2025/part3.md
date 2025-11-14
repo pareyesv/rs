@@ -266,7 +266,7 @@ it has been my case
 
 ## Version control
 
-If you develope code (or documents in text format), you will probably keep track of it in some _Version Control System_
+If you develop code (or documents in text format), you will probably keep track of it in some _Version Control System_
 
 Advantages
 
@@ -316,7 +316,7 @@ Which of these commit messages are clear to you?
 
 ## Branches
 
-To develope new code but keep the working version, _Git_ uses **branches**
+To develop new code but keep the working version, _Git_ uses **branches**
 
 In other words a commit can be followed by several new commits
 

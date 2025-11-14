@@ -84,7 +84,7 @@ We think that we can finish a project in less time that it will really take
   + Tools like *Toggl Track* can also be used
 + Reflect on how did you use your time
 
-# Good practice 1  {.center .good}
+# Good practice 1 {.center .good}
 
 Use a journal or a lab notebook
 
