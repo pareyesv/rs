@@ -1,39 +1,41 @@
 ---
 title: 'Command line interface'
 author: Andrés Aravena, PhD
-date: ""
+date: "13 November 2025"
 ---
 
-<style>
-#ascii-code table td, #ascii-code table th {
-    padding: 3px;
-}
+## I am Andres Aravena
 
-code {
-    background: hsl(0, 0%, 88%);
-    border: grey;
-    border-style: dashed;
-    border-width: thin;
-}
++ Senior AI Engineer at Ennova-Research (Venice)
++ Former academic at Istanbul University
++ Mathematical Engineer, U. of Chile
++ PhD Informatics, INRIA–U Rennes 1, France
++ PhD Mathematical Modeling, U. of Chile
 
-blockquote {
-    background: inherit;
-    /* border: grey; */
-    /* border-style: dashed; */
-    /* border-width: thin; */
-    padding-bottom: 0px;
-    /* padding-left: 100px; */
-    text-align: center;
-}
+## I used to teach Bioinformatics
 
-#cat img {
-    width: 770px;
-}
+That is, a mix of Biology and Informatics
 
-#grey img {
-    height: 330px;
-}
-</style>
+Every class **50%** of my students were *bored*
+
++ Some said I teach obvious things
++ Some said I teach incomprehensible things
+
+The *50%* changed every class
+
+Today will be similar
+
+## Focus on Philosophy, not Tools
+
+Tools will change in time. There will be new tools
+
+You probably use tools that did not exist 10 years ago
+
+And they often are a matter of *personal taste*
+
+So we will focus on the *philosophy* of the tools
+
+(i.e. the part that will not change)
 
 ## Kinds of file
 
@@ -333,3 +335,34 @@ Licensed under a [Creative Commons License](http://creativecommons.org/licenses/
 -->
 
 Images from: `archive.computerhistory.org`, `staff.salisbury.edu/~rafantini`
+
+<style>
+#ascii-code table td, #ascii-code table th {
+    padding: 3px;
+}
+
+code {
+    background: hsl(0, 0%, 88%);
+    border: grey;
+    border-style: dashed;
+    border-width: thin;
+}
+
+blockquote {
+    background: inherit;
+    /* border: grey; */
+    /* border-style: dashed; */
+    /* border-width: thin; */
+    padding-bottom: 0px;
+    /* padding-left: 100px; */
+    text-align: center;
+}
+
+#cat img {
+    width: 770px;
+}
+
+#grey img {
+    height: 330px;
+}
+</style>
