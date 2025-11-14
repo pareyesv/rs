@@ -15,27 +15,6 @@ cSpell: ignore Supercomputing Feibelman Annesley Derish nocite INRIA Toggl Kanar
 
 (informed by shared experiences)
 
-## I am Andres Aravena
-
-+ Senior AI Engineer at Ennova-Research (Venice)
-+ Former academic at Istanbul University
-+ Mathematical Engineer, U. of Chile
-+ PhD Informatics, INRIA–U Rennes 1, France
-+ PhD Mathematical Modeling, U. of Chile
-
-## I used to teach Bioinformatics
-
-That is, a mix of Biology and Informatics
-
-Every class **50%** of my students were *bored*
-
-+ Some said I teach obvious things
-+ Some said I teach incomprehensible things
-
-The *50%* changed every class
-
-Today will be similar
-
 ## Focus on Philosophy, not Tools
 
 Tools will change in time. There will be new tools

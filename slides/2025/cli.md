@@ -197,18 +197,22 @@ When a user logs in
 + The commands are programs
 + When they finish, the shell gives the user another prompt `$`
 
-<!-- ## Filename Completion|Tricks of the shell
+# Tricks of the shell
+
+## Filename Completion
+
 By typing part of the name of a command, filename or directory and pressing the [**Tab**] key, the shell will complete the rest of the name automatically.
 
  If the shell finds more than one name beginning with those letters you have typed, it will beep, asking you to type a few more letters before pressing the tab key again.
 
-## History|Tricks of the shell
- The shell keeps a list of the commands you have typed in
- 
- If you need to repeat a command, 
- 
- + use the cursor keys to move up and down in history 
- + or type `history` for a list of previous commands -->
+## History
+
+The shell keeps a list of the commands you have typed in
+
+If you need to repeat a command,
+
++ use the cursor keys to move up and down in history
++ or type `history` for a list of previous commands
 
 ## The Directory Structure {.fl-r}
 
