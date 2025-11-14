@@ -1,6 +1,6 @@
 OUT:=../../site/2025
 TGT_HTML:=$(patsubst %.md, $(OUT)/%.html, $(wildcard *.md))
-TGT_IMG:=$(patsubst images/%, $(OUT)/images/%, $(wildcard images/*))
+TGT_IMG:=$(patsubst images/%, $(OUT)/images/%, $(wildcard images/*ng) $(wildcard images/*pg) $(wildcard images/*/*g) $(wildcard images/*/*/*g))
 TGT_IMG:=$(TGT_IMG:.gv=.svg)
 
 all: $(TGT_HTML) $(TGT_IMG)
@@ -16,7 +16,7 @@ images/%.svg: gv/%.gv
 	dot -Tsvg -o $@ $^
 
 $(OUT)/images/%g: images/%g
-	@mkdir -p $(OUT)/images
+	@mkdir -p $(dir $@)
 	@ln -f '$^' '$@'
 	@chmod a+r '$@'
 	@echo $@
