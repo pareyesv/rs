@@ -1,4 +1,4 @@
-## Did you see Ocean's Eleven {.center-h}
+## Have you seen the movie Ocean's Eleven
 
 ![](images/Oceans_Eleven_2001_Poster.jpg)
 
@@ -31,7 +31,7 @@ By Jen from Boston from South Boston, MA - col and Casey Affleck, CC BY 2.0, htt
 :::
 
 
-## Do you kno him? {.center-h .full-v}
+## Do you know him? {.center-h .full-v}
 
 ![](images/600px-6.20.09ElliotGould1SecondFilm.jpg)
 

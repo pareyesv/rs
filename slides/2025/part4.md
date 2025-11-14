@@ -83,7 +83,7 @@ Painting the walls in a nice color is secondary
 
 # Thank you! {.center .good}
 
-<!-- ![](images/03_BSC-PhD-Post-Session-Survey-Research-Professionalism-Oct-8.png) -->
+![](images/2025-10-07-BSC-PhD-Post-Session-Survey-Intro-to-Research-Professionalism.png)
 
 <style>
 .reveal .block {
