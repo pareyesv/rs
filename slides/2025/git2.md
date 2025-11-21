@@ -279,7 +279,7 @@ Check it with
 git remote -v
 ```
 
-## Interacting with remote reports
+## Interacting with remote repositories
 
 + `git push` send your local commits to the remote repo
 
@@ -308,13 +308,11 @@ They can be used to organize code development
 + Who is responsabile
 + How the issues were solved
 
-Plus: it is a way to interact with the final users
+## Issues: interaction with the final users
 
-::: {.block style="width: 80%"}
 Every issue describes a missing characteristic
 
 The title should describe **what the state should be once the issue is solved**
-:::
 
 <!-- ## Examples of issue names -->
 
@@ -360,9 +358,6 @@ The original document remains untouched.
 2. **Origin:** Your Fork (Read/Write).
 3. **Local:** Your computer.
 
-**Flow:**  
-Upstream -> (Fork) -> Origin -> (Clone) -> Local -> (Push) -> Origin -> (PR) -> Upstream
-
 ## Step-by-Step Flow
 
 1. **Fork:** Click the "Fork" button on GitHub. (Creates `origin`).
@@ -402,6 +397,23 @@ You took the "View Only" Google Doc, made a copy, and fixed a spelling error. Yo
 | **Fork** | Server (GitHub) | You | Copies a repo to your GitHub account. |
 | **Branch** | Local or Server | You | Creates a parallel version of code. |
 | **PR** | Server (GitHub) | Shared | Asks to merge two branches/forks. |
+
+## Big picture
+
+**Flow:**  
+Upstream -> (Fork) -> Origin -> (Clone) -> Local -> (Push) -> Origin -> (PR) -> Upstream
+
+**Never submit a PR from your `main` branch.**
+
++ Always create a specific branch (e.g., `fix-login-bug`).
++ Why? So you can work on multiple PRs at once without mixing them up.
+
+## Updating a PR
+
++ **Scenario:** A maintainer asks for changes.
++ **Do NOT:** Close the PR or create a new one.
++ **DO:** Make changes locally, commit, and `git push`.
++ **Magic:** The PR on GitHub updates automatically
 
 # Advanced commands {.center .good}
 
