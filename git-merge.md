@@ -404,7 +404,7 @@ or
 
 ***
 
-```markdown
+~~~markdown
 % Git Merge & Its Pitfalls
 % Navigating the Danger Zones
 % [Your Name/Date]
@@ -454,7 +454,7 @@ Git cannot decide which is correct.
 
 ### The Scary Output
 
-```bash
+```text
 CONFLICT (content): Merge conflict in README.md
 Automatic merge failed; fix conflicts and then commit.
 ```
@@ -645,3 +645,154 @@ $ git revert -m 1 <merge-commit-hash>
 4. Create branch `B`, change line 1 (differently), commit.
 5. Merge `A` into `main`.
 6. **Task:** Merge `B` into `main` and resolve the conflict.
+~~~
+
+## Forks and Pull Requests (PRs)
+
+**These are not Git commands.**
+
+`git clone`, `git branch`, and `git merge` are standard Git commands.
+
+**Forks** and **Pull Requests** are features specific to hosting platforms like **GitHub**, GitLab, or Bitbucket.
+
+They are workflows built *on top* of Git to help people collaborate without giving everyone the password to the main server.
+
+## Permissions
+
+**The Problem:**
+Imagine you want to fix a bug in a famous open-source project (e.g., React or Linux).
+
+* You cannot run `git push` to their repository.
+* Why? Because you don't have permission. If everyone could write to the official code, it would be chaos.
+
+## The "Fork"
+
+**The Solution: The Fork**
+A **Fork** is a server-side clone. You tell GitHub: *"Take this repository and make a copy of it under **my** account."*
+
+* **Original Repo:** `facebook/react` (Read-Only for you)
+* **Your Fork:** `your-username/react` (Read/Write for you)
+
+Imagine a Google Doc that is "View Only." You cannot edit it. So, you go to **File > Make a Copy**. Now you have an exact duplicate that belongs to you, and you can edit it however you want. The original document remains untouched.
+
+## The Workflow: The "Golden Triangle"
+
+When working with Forks, there are three locations students must understand. I call this the "Golden Triangle."
+
+1. **Upstream:** The original repository (The source of truth).
+2. **Origin:** Your Fork on GitHub (Your cloud backup).
+3. **Local:** Your computer.
+
+**The Step-by-Step Flow:**
+
+1. **Fork:** Click the "Fork" button on GitHub. (Creates `Origin`).
+2. **Clone:** Clone *your fork* to your computer.
+    * `git clone https://github.com/your-name/repo.git`
+3. **Branch:** Create a feature branch on your computer.
+    * `git checkout -b fix-typo`
+4. **Commit:** Do the work and save it.
+5. **Push:** Push the work *to your fork* (`Origin`).
+    * `git push origin fix-typo`
+    * *Note:* You cannot push to Upstream!
+
+---
+
+## Pull Request (PR)
+
+Now that your code is on your Fork, the original maintainer doesn't know about it yet. You need to tell them.
+
+A **Pull Request** is a notification you send to the original maintainer saying:
+> *"I have made changes on my fork. Please **PULL** these changes into your repository."*
+
+**It is a Request to Merge.**
+
+Behind the scenes, a PR is simply a nice UI for a `git merge`. It allows the maintainers to:
+
+* See the Diff (the changes).
+* Comment on specific lines of code (Code Review).
+* Run automated tests.
+* Click a green button to "Merge" (or close it if they hate it).
+
+You took the "View Only" Google Doc, made a copy, and fixed a spelling error. You now email the owner of the original doc: *"Hey, here is a link to my copy where I fixed that typo. If you like it, copy/paste it into your original."*
+
+## Visualizing the Differences
+
+| Feature | Scope | Who owns it? | Action |
+| :--- | :--- | :--- | :--- |
+| **Clone** | Local (Your PC) | You | Downloads files to your machine. |
+| **Fork** | Server (GitHub) | You | Copies a repo to your GitHub account. |
+| **Branch** | Local or Server | You | Creates a parallel version of code. |
+| **PR** | Server (GitHub) | Shared | Asks to merge two branches/forks. |
+
+## Common Pitfalls with Forks & PRs
+
+When teaching this, warn students about these common issues:
+
+## The "Stale" Fork
+
+**Scenario:** You forked a repo 6 months ago. Today, you want to fix a bug. You clone your fork and start working.
+**Problem:** The original repo (`Upstream`) has had 500 commits since you forked. Your code is based on an ancient version.
+**Fix:** You must sync your fork before working.
+
+```bash
+# 1. Add the original repo as a remote named 'upstream'
+git remote add upstream https://github.com/original-owner/repo.git
+
+# 2. Pull the latest changes from upstream into your local main
+git checkout main
+git pull upstream main
+
+# 3. Update your fork (origin)
+git push origin main
+```
+
+## B. PRs from `main`
+
+**Scenario:** A student makes changes directly on their `main` branch and opens a PR.
+**Problem:** If they want to work on a *second* feature while the first PR is pending, they are stuck. Any new commits to `main` will automatically appear in the first PR (polluting it).
+**Rule:** **Always create a new branch for every PR.** Never submit a PR from `main`.
+
+## C. The "Review Cycle" Confusion
+
+**Scenario:** The maintainer reviews the PR and requests changes (e.g., "Please rename this variable").
+**Student Reaction:** The student closes the PR, deletes the branch, makes a new branch, and opens a *new* PR.
+**Correct Flow:** Just make the change locally on the *same branch*, commit, and push again. The existing PR will automatically update with the new code.
+
+---
+
+## Summary for Slides
+
+If you want to add a section to your previous slides, here is the Markdown:
+
+```markdown
+# GitHub Workflow: Forks & Pull Requests
+
+## 1. What is a Fork?
+*   **Git** doesn't know what a fork is. It's a **GitHub** feature.
+*   A **Fork** is a copy of a repository under **your** account.
+*   **Why?** You don't have permission to push to `facebook/react`. But you *can* push to `your-name/react`.
+
+## 2. The "Golden Triangle"
+1.  **Upstream:** The original repo (Read-Only).
+2.  **Origin:** Your Fork (Read/Write).
+3.  **Local:** Your computer.
+
+**The Flow:**
+Upstream -> (Fork) -> Origin -> (Clone) -> Local -> (Push) -> Origin -> (PR) -> Upstream
+
+## 3. What is a Pull Request (PR)?
+*   It is a request to **MERGE**.
+*   You are asking the maintainer: "Please **pull** my changes into your code."
+*   It enables **Code Review** and discussion before merging.
+
+## 4. The Golden Rule of PRs
+**Never submit a PR from your `main` branch.**
+*   Always create a specific branch (e.g., `fix-login-bug`).
+*   Why? So you can work on multiple PRs at once without mixing them up.
+
+## 5. Updating a PR
+*   **Scenario:** A maintainer asks for changes.
+*   **Do NOT:** Close the PR or create a new one.
+*   **DO:** Make changes locally, commit, and `git push`.
+*   **Magic:** The PR on GitHub updates automatically!
+```

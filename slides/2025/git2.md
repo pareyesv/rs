@@ -1,6 +1,6 @@
 ---
-title: Introduction to GIT
-date: 13 November 2025
+title: GIT, second part
+date: 21 November 2025
 author: Andres Aravena
 ---
 
@@ -8,11 +8,15 @@ author: Andres Aravena
 
 Look at the history of commits
 
-`git log`
+```sh
+git log
+```
 
 Sometimes it is useful to say
 
-`git log --oneline`
+```sh
+git log --oneline
+```
 
 ## Going back in time
 
@@ -22,7 +26,11 @@ We can recover previous versions of a file with the command
 
 There are several options, that you can check
 
-`git help restore`
+```sh
+git help restore
+```
+
+The help pages are your friends
 
 # Experimenting {.center .good}
 
@@ -46,11 +54,13 @@ We can create a *branch* with the command
 
 Check it with
 
-`git branch`
+```sh
+git branch
 
-`git branch -v`
+git branch -v
 
-`git branch -vv`
+git branch -vv
+```
 
 What is the default branch name?
 
@@ -62,11 +72,13 @@ What is the default branch name?
 
 Check it with
 
-`git branch`
+```sh
+git branch
 
-`git branch -v`
+git branch -v
 
-`git branch -vv`
+git branch -vv
+```
 
 Old versions used `git checkout` but this can be dangerous  
 (it is too powerful)
@@ -86,14 +98,20 @@ There are also two *protected* branches:
 ## Visualization of branches
 
 ```sh
-git log --graph --all
+git log --graph
+
+git log --graph --oneline
+
+git log --graph --oneline --all
 ```
 
 ## When the experiment finishes
 
 If things were bad, you can go back
 
-`git switch main`
+```sh
+git switch main
+```
 
 If things go ok, you can merge into the main branch
 
@@ -101,15 +119,151 @@ If things go ok, you can merge into the main branch
 
 `git merge` branch-name
 
-## Merge
+## Merge produces headaches
+
+We can categorize merge problems into three stages:
+
+1. **Before**: Preparation failures
+
+2. **During**: Conflicts, Wrong Direction
+
+3. **After**: Fast-forwards, Logic bugs, Reverts
+
+## The "Dirty" Directory problem
+
+If we have uncommitted changes in the current branch, git will not merge.
+
+**Error Message:**
+
+```text
+error: Your local changes to the following files would be overwritten by merge
+```
+
+It avoids overwriting the files
+
+We must commit before merging, and this will produce a *merge commit*
 
 ## Conflicts
 
-What happens if two people change the same file?
+What happens if two branches change the same file?
 
 Usually there is no problem
 
-Unless both change the same line
+Unless both change the same line. Git cannot decide which one is correct.
+
+:::notes
+edited the exact same line in a file, or one person edited a file and the other deleted it
+:::
+
+**Error Message:**
+
+```
+CONFLICT (content): Merge conflict in <file>...
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+## Fixing the conflict
+
+Open the file. Look for the markers:
+
+```text
+<<<<<<< HEAD
+Title: Beta
+=======
+Title: Alpha
+>>>>>>> main
+```
+
+**Action:** Delete the markers, choose the text you want, save, `git add`, and `git commit`.
+
+## Panic Mode
+
+You hit a conflict.
+
+You panic.
+
+You try to switch branches to check something else.
+
+```bash
+git checkout main
+```
+
+```
+error: you need to resolve your current index first
+```
+
+You are trapped in `(MERGING)` mode.
+
+## The Eject Button
+
+If you want to give up and go back to exactly how things were before you typed merge:
+
+```bash
+git merge --abort
+```
+
+## Logical Conflicts
+
++ **Branch A:** Renames `calculateTax()` to `getTax()`.
++ **Branch B:** Writes new code calling `calculateTax()`.
+
+Git merges successfully! (Different lines/files).
+
+The app fails at runtime: `Uncaught TypeError: calculateTax is not a function`.
+
+**Git merges text, not logic.**
+A clean merge does not mean working code.
+*Always run automated tests after merging.*
+
+## The Wrong Direction
+
+You want to bring `feature` into `main`.
+
+**Mistake:** You are sitting on `feature` and run `git merge main`
+
++ `feature` gets polluted with `main` code.
++ `main` stays outdated.
+
+Check your branch *before* merging.
+
+```bash
+git checkout main
+git merge feature-branch
+```
+
+## Binary File Conflicts
+
+Two branches edited `hero.png` (an image)
+
+```text
+warning: Cannot merge binary files: hero.png
+CONFLICT (content): Merge conflict in hero.png
+```
+
+You cannot edit "pixels" inside a text editor
+
+You must pick a winner
+
+## Choose one binary file
+
+Keep MY version
+
+```bash
+git checkout --ours hero.png
+```
+
+Keep THEIR version
+
+```bash
+git checkout --theirs hero.png
+```
+
+Then add and commit
+
+```bash
+git add hero.png
+git commit
+```
 
 # Collaborating {.center .good}
 
@@ -121,7 +275,9 @@ Follow the instructions and add a remote
 
 Check it with
 
-`git remote`
+```bash
+git remote -v
+```
 
 ## Interacting with remote reports
 
@@ -134,13 +290,11 @@ Check it with
 
 ## Get the repository somewhere else
 
-`git clone`
+`git clone` remote-repo-url
 
 You can clone other repos
 
 Other people can clone yours (if it is public)
-
-## Forking
 
 ## Online platforms and Issues
 
@@ -174,22 +328,99 @@ These branches have names corresponding to the issue
 
 <https://github.com/anaraven/msr/issues/1>{target="_blank"}
 
-## Pull requests
+## Permissions
 
-## Advanced commands
+Imagine you want to fix a bug in an open-source project.
 
-These commands are good to know
++ You cannot run `git push` to their repository.
++ You don't have permission
++ If everyone could write to the official code, it would be chaos.
 
-`git bisect`
+## Forking
 
-`git cherry-pick`
+A **Fork** is a server-side clone. You tell GitHub: *"Take this repository and make a copy of it under **my** account."*
 
-`lazygit`
++ **Original Repo:** `facebook/react` (Read-Only for you)
++ **Your Fork:** `your-username/react` (Read/Write for you)
 
-## Text editor
+Imagine a Google Doc that is "View Only." You cannot edit it.  
+So, you go to **File > Make a Copy**.  
+Now you have an exact duplicate that belongs to you, and you can edit it however you want.  
+The original document remains untouched.  
+
+## What is a Fork?
+
++ **Git** doesn't know what a fork is. It's a **GitHub** feature.
++ A **Fork** is a copy of a repository under **your** account.
++ **Why?** You don't have permission to push to `facebook/react`. But you *can* push to `your-name/react`.
+
+## Three repositories to watch
+
+1. **Upstream:** The original repo (Read-Only).
+2. **Origin:** Your Fork (Read/Write).
+3. **Local:** Your computer.
+
+**Flow:**  
+Upstream -> (Fork) -> Origin -> (Clone) -> Local -> (Push) -> Origin -> (PR) -> Upstream
+
+## Step-by-Step Flow
+
+1. **Fork:** Click the "Fork" button on GitHub. (Creates `origin`).
+2. **Clone:** Clone *your fork* to your computer.
+    + `git clone https://github.com/your-name/repo.git`
+3. **Branch:** Create a feature branch on your computer.
+    + `git checkout -b fix-typo`
+4. **Commit:** Do the work and save it.
+5. **Push:** Push the work *to your fork* (`origin`).
+    + `git push origin fix-typo`
+    + *Note:* You cannot push to Upstream!
+
+## Pull Request (PR)
+
+Now that your code is on your Fork, the original maintainer doesn't know about it yet. You need to tell them.
+
+A **Pull Request** is a notification you send to the original maintainer saying:
+
+> *"I have made changes on my fork. Please **PULL** these changes into your repository."*
+
+## It is a Request to Merge
+
+Behind the scenes, a PR is simply a nice UI for a `git merge`. It allows the maintainers to:
+
++ See the Diff (the changes).
++ Comment on specific lines of code (Code Review).
++ Run automated tests.
++ Click a green button to "Merge" (or close it if they hate it).
+
+You took the "View Only" Google Doc, made a copy, and fixed a spelling error. You now email the owner of the original doc: *"Hey, here is a link to my copy where I fixed that typo. If you like it, copy/paste it into your original."*
+
+## Big Picture
+
+| Feature | Scope | Who owns it? | Action |
+| :-- | :---- | :--- | :---------- |
+| **Clone** | Local (Your PC) | You | Downloads files to your machine. |
+| **Fork** | Server (GitHub) | You | Copies a repo to your GitHub account. |
+| **Branch** | Local or Server | You | Creates a parallel version of code. |
+| **PR** | Server (GitHub) | Shared | Asks to merge two branches/forks. |
+
+# Advanced commands {.center .good}
+
+## These commands are good to know
+
+`git bisect`: find in which commit a bug appeared
+
+`git cherry-pick`: take a commit from one branch and apply to another
+
+`lazygit`: text user interface. Remember commands for you
+
+<!-- ## Text editor
 
 In the command line we use either `nano`, `code` or `vi`
 
 Probably `nano` is the best in this case
 
-edit `.profile` or `.bashrc` and set the environment variable `EDITOR`
+edit `.profile` or `.bashrc` and set the environment variable `EDITOR` -->
+
+<style>
+  .reveal pre .bash {font-size: 40px}
+</style>
