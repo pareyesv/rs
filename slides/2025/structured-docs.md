@@ -19,10 +19,6 @@ And you use _structured programs_
 
 The same applies to structuring our documents
 
-Maybe you have used LaTeX, or Markdown
-
-Maybe you know HTML
-
 ## Separation of concerns
 
 <!-- cSpell:ignore Lamport Entscheidungsproblem beamer -->
@@ -57,8 +53,7 @@ Painting the walls in a nice color is secondary
 + Metadata
   + Title
   + Authors
-  + Affiliations
-  + Dates: submission, acceptance
+  + Dates
 
 ## Structured Word documents {.no-gap .center-h .full-v .shadow}
 
@@ -68,25 +63,91 @@ Painting the walls in a nice color is secondary
 
 ![](images/word-outline.png)
 
+# Text documents are good {.good .center}
+
+## Text files are for humans and computers
+
++ Binary files are hard to read
+  + unless you have the correct program
++ Text files can be read by humans
+  + Each byte is a letter
++ Text files can be read by computers
+  + Data must be **recyclable**
+  + The output of one program may be the input of another program
+
+## Text editors instead of Word processors {.large}
+
+The easiest way to handle _text files_ is to use a **text editor**
+
+These are programs to view and edit text files
+
+```
+They use a monospaced font, like Courier
+
+Each letter has the same width
+```
+
+## Text editor have syntax coloring {.large}
+
+Since each letter has the same size, text editor use color
+
+The color depends on the **role** of each text
+
+For example, _headings_ can be in red color
+
+**The color is not in the file. The editor puts colors**
+
+## Text files are for ever {.Large}
+
+Free
+
++ nothing to pay
+
++ you can do whatever you want
+
+Never get obsolete
+
+# But they do not have structure {.good-inv .center}
+
+## Structured Documents {.large}
+
+We want to identify the _meaning_, not the _shapes_
+
++ Title
++ Sections
+  + Subsections
+    + Lists
+    + Figures
+    + Tables
++ References to other works
+
+NOT _bold_ or _italic_ or _centered_
+
+## Separation of concerns in practice
+
+The key idea is to describe _what things are_, not _how they look_
+
+Describe the role of text, not the "looks"
+
+Separate style from structure
+
 # Structure without style {.center .good}
 
-## Historical note {.fl-r}
+## Text files with structure
 
-![](https://www.dry-lab.org/images/pixabay.com/p-1138293/typewriter-1138293_640.png)
+There are several markup languages that encode the structure of a _text_ document
 
-Mechanical typewriters were invented in 1874
++ LaTeX
++ ReStructured Text
++ MediaWiki
++ HTML
++ Markdown
++ Textile
++ AsciiDoc
 
-They had only one font
+## Marking structure in plain text
 
-We still use the same keyboard
-
-## Using UPPERCASE and [underline]{.underline} for emphasis
-
-![](https://www.dry-lab.org/images/2018/09/ScreenShot2018-09-19at22.41.35.png)
-
-## Giving style to plain text
-
-Since there was only one type of letter, people used some symbols as "magic"
+Since text files have only one type of letter, we use some symbols as "magic"
 
 For example `\` or `@`
 
@@ -147,10 +208,6 @@ Changing the `documentclass` will change the document _look_
 
 We cannot say the same about Microsoft Word
 
-## The real advantage: it looks correct {.center .full-v}
-
-![](images/latex.png)
-
 ## Good ideas in LaTeX
 
 + Chapters, sections, subsections
@@ -174,21 +231,6 @@ $$(a+b)^n=\sum_{k=0}^n \frac{n!}{k!(n-k)!} a^k b^{n-k}$$
 You can use this syntax in Microsoft Word's Equation Editor
 
 Learning how to write math is a good investment
-
-## Bibliographic References
-
-There are _hundreds_ of citation styles
-
-Life is too short to sort references _manually_
-
-LaTeX also provides a convenient way to handle references
-
-References are stored in a separate text file, in BiBTeX format
-
-Many tools can create BiBTeX files for you
-
-+ Zotero
-+ Mendeley
 
 ## LaTeX disadvantages
 
@@ -266,113 +308,6 @@ date: 13 September 2012
 There are many possible motivations for becoming involved in online learning…
 ```
 
-# Text documents are good {.good .center}
-
-## Text files are for humans and computers
-
-+ Binary files are hard to read
-  + unless you have the correct program
-+ Text files can be read by humans
-  + Each byte is a letter
-+ Text files can be read by computers
-  + Data must be **recyclable**
-  + The output of one program may be the input of another program
-
-## Text editors instead of Word processors {.large}
-
-The easiest way to handle _text files_ is to use a **text editor**
-
-These are programs to view and edit text files
-
-```
-They use a monospaced font, like Courier
-
-Each letter has the same width
-```
-
-## Text editor have syntax coloring {.large}
-
-Since each letter has the same size, text editor use color
-
-The color depends on the **role** of each text
-
-For example, _headings_ can be in red color
-
-**The color is not in the file. The editor puts colors**
-
-## Text editors handling Markdown {.large}
-
-These work with Markdown and other formats
-
-+ Visual Studio **Code**: [`code.visualstudio.com`](https://code.visualstudio.com/){.small target="_blank"}
-+ RStudio: [`rstudio.com/products/rstudio/download/`](https://rstudio.com/products/rstudio/download/){.small target="_blank"}
-
-All are good. We use _VSCode_
-
-## Online Markdown editors {.Large}
-
-+ StackEdit: [`stackedit.io`](https://stackedit.io){.small target="_blank"}
-+ Dillinger: [`dillinger.io`](https://dillinger.io){.small target="_blank"}
-+ Draft: [`draftin.com`](https://draftin.com){.small target="_blank"}
-+ Markdown Editor: [`jbt.github.io/markdown-editor/`](https://jbt.github.io/markdown-editor/){.small target="_blank"}
-
-## Text files are for ever {.Large}
-
-Free
-
-+ nothing to pay
-
-+ you can do whatever you want
-
-Never get obsolete
-
-# But they do not have structure {.good-inv .center}
-
-## Structured Documents {.large}
-
-We want to identify the _meaning_, not the _shapes_
-
-+ Title
-+ Sections
-  + Subsections
-    + Lists
-    + Figures
-    + Tables
-+ References to other works
-
-## Separation of concerns
-
-The key idea is to describe _what things are_, not _how they look_
-
-Describe the role of text, not the "looks"
-
-Separate style from structure
-
-<!-- ## Structural elements
-
-+ Sections, subsections, paragraphs
-+ Figures and Tables
-+ Lists
-+ References
-+ Equations
-+ Metadata
-    + Title
-    + Authors
-    + Affiliations
-    + Dates: submission, acceptance -->
-
-## Text files with structure
-
-There are several markup languages that encode the structure of a _text_ document
-
-+ LaTeX
-+ ReStructured Text
-+ MediaWiki
-+ HTML
-+ Markdown
-+ Textile
-+ AsciiDoc
-
 ## Markdown
 
 _Markdown_ is a widely used markup language
@@ -412,8 +347,6 @@ Unfortunately, they are not always 100% compatible
 There is not yet an official standard
 
 **Recommendation**: _pandoc_
-
-(if you have RStudio, you have _Pandoc_)
 
 ## _Pandoc_
 
