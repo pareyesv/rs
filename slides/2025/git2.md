@@ -71,15 +71,45 @@ Check it with
 Old versions used `git checkout` but this can be dangerous  
 (it is too powerful)
 
+## Branch names
+
+A popular naming strategy is to use a prefix like `feature/` or `hotfix/`
+
++ `feature/new-thing`
++ `hotfix/problem-to-solve`
+
+There are also two *protected* branches:
+
++ `develop`, where the development happens
++ `main`, where the current official version is tracked
+
+## Visualization of branches
+
+```sh
+git log --graph --all
+```
+
 ## When the experiment finishes
 
 If things were bad, you can go back
+
+`git switch main`
 
 If things go ok, you can merge into the main branch
 
 `git switch main`
 
 `git merge` branch-name
+
+## Merge
+
+## Conflicts
+
+What happens if two people change the same file?
+
+Usually there is no problem
+
+Unless both change the same line
 
 # Collaborating {.center .good}
 
@@ -110,6 +140,8 @@ You can clone other repos
 
 Other people can clone yours (if it is public)
 
+## Forking
+
 ## Online platforms and Issues
 
 Git is often used with a web platform like *GitHub*, *GitLab*, *BitBucket* or similar, either public or private
@@ -117,6 +149,12 @@ Git is often used with a web platform like *GitHub*, *GitLab*, *BitBucket* or si
 These sites add extra functionality. For instance, they allow us to track **issues** with the code
 
 They can be used to organize code development
+
++ Why this code is being developed
++ Who is responsabile
++ How the issues were solved
+
+Plus: it is a way to interact with the final users
 
 ::: {.block style="width: 80%"}
 Every issue describes a missing characteristic
@@ -126,11 +164,9 @@ The title should describe **what the state should be once the issue is solved**
 
 <!-- ## Examples of issue names -->
 
-## Branch names
+## Documenting branches
 
-A popular naming strategy is to use a prefix like `feature/` or `hotfix/`
-
-In my experience these names are not clear enough
+In my experience names like `feature/new-thing` are not clear enough
 
 Online platforms allow you to create branches *from the issue page*
 
@@ -138,21 +174,7 @@ These branches have names corresponding to the issue
 
 <https://github.com/anaraven/msr/issues/1>{target="_blank"}
 
-## Visualization of branches
-
-```
-git log --graph --all --date=short
-```
-
-## Merge and conflicts
-
-What happens if two people 
-
-## Collaboration
-
-+ Fork
-
-+ Pull requests
+## Pull requests
 
 ## Advanced commands
 
@@ -168,9 +190,6 @@ These commands are good to know
 
 In the command line we use either `nano`, `code` or `vi`
 
-probably `nano` is the best in this case
+Probably `nano` is the best in this case
 
-edit some files
-edit `.profile` or `.bashrc`
-
-    set EDITOR
+edit `.profile` or `.bashrc` and set the environment variable `EDITOR`
