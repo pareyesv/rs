@@ -1,9 +1,8 @@
 ---
 title: "Structured documents"
 description: "Writing documents that are easy to understand"
-subtitle: Methodology of Scientific Research
 author: Andrés Aravena, PhD
-date: "October 8, 2024"
+date: "November 15, 2025"
 published: true
 lang: en
 cspell: ignore Searls Cifuentes Goodbody rstudio dillinger stackedit MacFarlane draftin longnote calcofluor
@@ -61,25 +60,6 @@ Painting the walls in a nice color is secondary
   + Affiliations
   + Dates: submission, acceptance
 
-## Microsoft Word
-
-The first tool we learn today is a WYSIWYG word processor
-
-In word processors like Word®,  
-_What You See Is What You Get_
-
-This is sometimes called **WYSIWYG**
-
-It is easy to change fonts, sizes, colors and other visual attributes, without paying attention to _structure_
-
-## Style is not Structure {.large}
-
-You can follow the same philosophy:
-
-+ Separate style from structure
-
-+ Focus on content
-
 ## Structured Word documents {.no-gap .center-h .full-v .shadow}
 
 ![](images/word-styles.png)
@@ -103,10 +83,6 @@ We still use the same keyboard
 ## Using UPPERCASE and [underline]{.underline} for emphasis
 
 ![](https://www.dry-lab.org/images/2018/09/ScreenShot2018-09-19at22.41.35.png)
-
-## Early computers had only _text_, no graphics {.center-h .full-v}
-
-![](https://www.dry-lab.org/images/archive.computerhistory.org/resources/still-image/DEC/PDP-11/dec_pdp-11.medicine.102630692.lg.jpg)
 
 ## Giving style to plain text
 
@@ -159,19 +135,6 @@ LaTeX files are text files. They will never be obsolete.
 
 Changing the `documentclass` will change the document _look_
 
-## Advantages of LaTeX
-
-+ It is free
-
-+ it _forces_ you to think logically and organize your ideas
-
-+ Write first, compile later
-
-+ Do not waste time playing with fonts
-
-+ Good journals accept LaTeX submissions  
-(they also accept Microsoft Word format)
-
 ## LaTeX files are _text files_
 
 + Independent of any provider
@@ -187,25 +150,6 @@ We cannot say the same about Microsoft Word
 ## The real advantage: it looks correct {.center .full-v}
 
 ![](images/latex.png)
-
-## According to the author of LaTeX
-
-The main mistake that people should stop making is
-
-> Worrying too much about formatting and not enough about content.
-
-::: source
-"How (La)TeX changed the face of Mathematics". An E-interview with Leslie Lamport. <http://lamport.azurewebsites.net/pubs/lamport-latex-interview.pdf>
-:::
-
-## Bonus: Slides for presentations
-
-After writing your paper, you will probably present it  
-(or maybe before finishing it)
-
-Using structured document makes it easy to _recycle_ your material to presentation slides
-
-In LaTeX you can do that using the `beamer` document class
 
 ## Good ideas in LaTeX
 
@@ -308,14 +252,14 @@ There are many possible motivations for becoming involved in online learning…
 
 ## Alternative: Markdown
 
-It is a light markup system that can be easily converted into nice presentations
+It is a light markup system that can be easily converted into any other format
 
 ```md
 ---
 title: Ten Simple Rules for Online Learning
 author: David B. Searls
 date: 13 September 2012
-...
+---
 
 # Rule 1: Make a Plan
 
@@ -442,7 +386,7 @@ _Markdown_ is a widely used markup language
 
 + Used in R, Python, Julia (Jupyter), in GitHub, and many other modern platforms
 
-## Markdown's author says:
+## Markdown's author says
 
 <!-- cSpell:ignore Gruber swiss Powerpoint -->
 
@@ -642,26 +586,6 @@ or the name of a file in the same directory
 
 ![optional text](https://www.dry-lab.org/images/favicon-alpha.png)\
 
-## Optional text is shown when the image is not found
-
-```
-![optional text](images/logo.pn)
-```
-
-![optional text](images/logo.pn) \
-
-## Figures with Captions
-
-This is a _pandoc_ extension, not standard Markdown
-
-If the figure is a paragraph (has empty lines before and after_then the_optional text_ becomes the caption,
-
-```
-![This is the caption of the figure.](images/logo.png)
-```
-
-![This is the caption of the figure.](https://www.dry-lab.org/images/favicon-alpha.png)
-
 ## Tables
 
 There are several formats. The easiest one is this
@@ -681,40 +605,6 @@ There are several formats. The easiest one is this
 | 2 | GSM91893 | low  | 5 min | caffeine         |
 | 3 | GSM91428 | low  | 5 min | calcofluor white |
 | 4 | GSM91881 | low  | 5 min | calcofluor white |
-
-## Tables with captions (_pandoc_ extension)
-
-Write `Table:` and the caption just after the table
-
-```
-|   | sample   | dose | time  | agent            |
-|---|----------|------|-------|------------------|
-| 1 | GSM91440 | low  | 5 min | caffeine         |
-| 2 | GSM91893 | low  | 5 min | caffeine         |
-| 3 | GSM91428 | low  | 5 min | calcofluor white |
-| 4 | GSM91881 | low  | 5 min | calcofluor white |
-
-Table: This is the table caption
-```
-
-|   | sample   | dose | time  | agent            |
-|---|----------|------|-------|------------------|
-| 1 | GSM91440 | low  | 5 min | caffeine         |
-| 2 | GSM91893 | low  | 5 min | caffeine         |
-| 3 | GSM91428 | low  | 5 min | calcofluor white |
-| 4 | GSM91881 | low  | 5 min | calcofluor white |
-
-Table: This is the table caption
-
-## Making tables
-
-There are some VSCode plug-ins that can make tables for you
-
-Or you can make them in R using `knitr` or `pander` libraries
-
-A good alternative is this website:
-
-<https://www.tablesgenerator.com/markdown_tables>
 
 ## Computer code
 
