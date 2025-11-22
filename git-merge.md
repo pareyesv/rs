@@ -411,23 +411,25 @@ or
 
 ---
 
-# The Roadmap
+## The Roadmap
 
 We will categorize merge problems into three stages:
 
-1.  **Before**: Preparation failures (The "Dirty" Directory).
-2.  **During**: The act of merging (Conflicts, Wrong Direction).
-3.  **After**: History and Logic (Fast-forwards, Logic bugs, Reverts).
+1. **Before**: Preparation failures (The "Dirty" Directory).
+2. **During**: The act of merging (Conflicts, Wrong Direction).
+3. **After**: History and Logic (Fast-forwards, Logic bugs, Reverts).
 
 ---
 
-# 1. The "Dirty" Working Directory
+## 1. The "Dirty" Working Directory
 
-### The Scenario
+## The Scenario
+
 You are fixing a bug in `styles.css`. You haven't committed yet.
 You try to run `git merge main` to get updates.
 
-### The Error
+## The Error
+
 ```text
 error: Your local changes to the following files
 would be overwritten by merge:
