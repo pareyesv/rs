@@ -419,6 +419,14 @@ Upstream -> (Fork) -> Origin -> (Clone) -> Local -> (Push) -> Origin -> (PR) -> 
 
 ## These commands are good to know
 
+`git blame`
+
+`git tag`
+
+`git stash`
+
+`git worktree`
+
 `git bisect`: find in which commit a bug appeared
 
 `git cherry-pick`: take a commit from one branch and apply to another
