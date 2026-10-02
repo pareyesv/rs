@@ -1,4 +1,4 @@
-OUT:=../../site/2025
+OUT:=../../site/2026
 TGT_HTML:=$(patsubst %.md, $(OUT)/%.html, $(wildcard *.md))
 TGT_IMG:=$(patsubst images/%, $(OUT)/images/%, $(wildcard images/*ng) $(wildcard images/*pg) $(wildcard images/*/*g) $(wildcard images/*/*/*g))
 TGT_IMG:=$(TGT_IMG:.gv=.svg)
