@@ -353,6 +353,19 @@ code {
   font-weight: 900;
 }
 
+.reveal .slides > section:first-child::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 2.5in;
+    height: 0.8in;
+    background-image: url('../images/Elevate-positivo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
 .reveal .slides section {
   height: 100%;
 }
@@ -434,17 +447,25 @@ code {
           transform: translate(100%, 0); }
 
 .reveal h1.title {
-    font-size: 2.5em;
+    /* font-size: 2.5em; */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
 }
 
 .reveal h1.subtitle {
     font-size: 1.4em;
-    
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
 }
 
 .reveal h1.title, .reveal h1.subtitle,
 .reveal h2.author, .reveal h3.date {
     text-align: left;
+}
+
+.reveal h2.author, .reveal h3.date {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
 }
 
 iframe.logo {
