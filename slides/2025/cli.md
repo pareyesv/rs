@@ -106,7 +106,8 @@ at the same time
 
 ## Each person used a *dumb* terminal {.center-h}
 
-![](images/archive.computerhistory.org/resources/still-image/DEC/PDP-11/dec_pdp-11.medicine.102630692.lg.jpg)
+<!-- source: https://archive.computerhistory.org/resources/still-image/DEC/PDP-11/dec_pdp-11.medicine.102630692.lg.jpg -->
+![](images/pdp11-medicine.jpg)
 
 ## Each computer had its own system {.no-gap .full-v .center-h}
 
@@ -114,11 +115,13 @@ at the same time
 
 ## Engineers designed UNIX to work in all servers {.no-gap .full-v .center-h}
 
-![](images/archive.computerhistory.org/resources/still-image/DEC/PDP-11/102685442.03.01.lg.jpg)
+<!-- source: https://archive.computerhistory.org/resources/still-image/DEC/PDP-11/102685442.03.01.lg.jpg -->
+![](images/pdp11-servers.jpg)
 
 ## UC Berkeley adapted UNIX for research {.no-gap .full-v .center-h}
 
-![](images/archive.computerhistory.org/resources/still-image/DEC/PDP-11/dec_pdp-11.pdp11_with_reflecting_telescope.102630697.lg.jpg)
+<!-- source: https://archive.computerhistory.org/resources/still-image/DEC/PDP-11/dec_pdp-11.pdp11_with_reflecting_telescope.102630697.lg.jpg -->
+![](images/pdp11-telescope.jpg)
 
 ## All UNIX systems have a **text** interface
 
@@ -135,7 +138,8 @@ However, **command line** interface is also used
 
 ## So this...  {.no-gap .full-v .center-h}
 
-![](images/www.computer-history.info/Page4.dir/pages/PDP.11.dir/images/Early.DEC.CRT.big.jpg)
+<!-- source: https://www.computer-history.info/Page4.dir/pages/PDP.11.dir/images/Early.DEC.CRT.big.jpg -->
+![](images/early-dec-crt.jpg)
 
 ## ... became this {.no-gap .full-v .center-h}
 
@@ -143,7 +147,8 @@ However, **command line** interface is also used
 
 ## Using Command line inside Windows {.full-v .no-gap .center-h}
 
-![](images/images.techhive.com/images/article/2016/12/ibm_pc_dos_1.0_screenshot-100697382-large.jpg)
+<!-- source: https://images.techhive.com/images/article/2016/12/ibm_pc_dos_1.0_screenshot-100697382-large.jpg -->
+![](images/ibm-pc-dos.jpg)
 
 ## Power shell {.full-v .no-gap .center-h}
 

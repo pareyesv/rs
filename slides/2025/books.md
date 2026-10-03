@@ -22,11 +22,13 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 
 ## Example {.full-v .shadow .center-h}
 
-![](images/www.5sensesll.com/wp-content/uploads/2020/04/IMG_3741-2.jpg)
+<!-- source: https://www.5sensesll.com/wp-content/uploads/2020/04/IMG_3741-2.jpg -->
+![](images/kanban-example.jpg)
 
 ## Digital version  {.full-v .shadow .center-h}
 
-![](images/docs.github.com/assets/cb-550210/mw-1440/images/help/projects-v2/example-board.webp)
+<!-- source: https://docs.github.com/assets/cb-550210/mw-1440/images/help/projects-v2/example-board.webp -->
+![](images/github-project-board.webp)
 
 ## Choosing what to do {.full-v .shadow .center-h}
 
@@ -38,7 +40,7 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 
 ## Getting Things Done {.fl-r .full-v .shadow}
 
-![GTD](images/2022/GTD-2015.jpg)
+![GTD](images/GTD-2015.jpg)
 
 + Collect everything in few _inboxes_
   + Mail Inbox
@@ -51,7 +53,7 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 
 ## Bullet Journal {.fl-r .full-v .shadow}
 
-![Bujo](images/2022/BuJo.jpg)
+![Bujo](../shared/images/BuJo.jpg)
 
 + Record daily
 + Review daily
@@ -61,7 +63,7 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 
 ## Make Time {.fl-r .full-v .shadow}
 
-![maketime](images/2022/maketime.jpg)
+![maketime](images/maketime.jpg)
 
 + Highlight
   + How do you want to remember this day?
@@ -74,7 +76,8 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 
 ## Digital Minimalism  {.fl-r .full-v .shadow}
 
-![](images/cdn.dc5.ro/img-prod/694670713-0.jpeg)
+<!-- source: https://cdn.dc5.ro/img-prod/694670713-0.jpeg -->
+![](images/digital-minimalism.jpeg)
 
 + Avoid social media
 + It is an addiction
@@ -83,7 +86,7 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 
 ## Pomodoro Technique {.fl-r .full-v .shadow}
 
-![pomodoro](images/2022/pomodoro.jpg)
+![pomodoro](images/pomodoro.jpg)
 
 + Avoid procrastination
 + Commit to work for 25 minutes
@@ -161,7 +164,7 @@ Use it as a compass
 
 ## How to write a lot {.fl-r .full-v .shadow}
 
-![silvia](images/2022/writeAlot.jpg){style="height: 300px"}
+![silvia](images/writeAlot.jpg){style="height: 300px"}
 
 + Write every day
 + Get into the "writing addiction"
@@ -170,7 +173,8 @@ Use it as a compass
 
 ## Second Brain {.fl-r .full-v .shadow}
 
-![](images/static.hebban.nl/covers/00000650/normal/41m03vfrcQL._SX327_BO1,204,203,200_.jpg)
+<!-- source: https://static.hebban.nl/covers/00000650/normal/41m03vfrcQL._SX327_BO1%2C204%2C203%2C200_.jpg -->
+![](images/second-brain.jpg)
 
 + Zettelkasten
 + Write summaries with your own words
