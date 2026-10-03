@@ -82,11 +82,11 @@ You can follow the same philosophy:
 
 ## Structured Word documents {.no-gap .center-h .full-v .shadow}
 
-![](images/word-styles.png)
+![](../shared/images/word-styles.png)
 
 ## Now the document has structure {.no-gap .center-h .full-v .shadow}
 
-![](images/word-outline.png)
+![](../shared/images/word-outline.png)
 
 # Structure without style {.center .good}
 
@@ -186,7 +186,7 @@ We cannot say the same about Microsoft Word
 
 ## The real advantage: it looks correct {.center .full-v}
 
-![](images/latex.png)
+![](../shared/images/latex.png)
 
 ## According to the author of LaTeX
 

@@ -57,11 +57,11 @@ Painting the walls in a nice color is secondary
 
 ## Structured Word documents {.no-gap .center-h .full-v .shadow}
 
-![](images/word-styles.png)
+![](../shared/images/word-styles.png)
 
 ## Now the document has structure {.no-gap .center-h .full-v .shadow}
 
-![](images/word-outline.png)
+![](../shared/images/word-outline.png)
 
 # Text documents are good {.good .center}
 

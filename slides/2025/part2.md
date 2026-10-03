@@ -81,7 +81,7 @@ That is, based on your name and the subject
 
 ## Does this work? {.shadow .center-h .full-h}
 
-![](images/no-subject-no-avatar.png)
+![](../shared/images/no-subject-no-avatar.png)
 
 ## Always write a Subject
 
@@ -120,7 +120,7 @@ This seems a good idea but I have never used it nor seen used by anybody
 
 ## What about this one? {.shadow .center-h .full-h}
 
-![](images/bad-avatar-1.png)
+![](../shared/images/bad-avatar-1.png)
 
 Have I seen this person before?
 
@@ -192,7 +192,7 @@ I guess it is an evolutionary trait
 
 ## And about this one? {.shadow .center-h .full-h}
 
-![](images/no-avatar-no-name.png)
+![](../shared/images/no-avatar-no-name.png)
 
 ## Always include your full name {.fl-r}
 

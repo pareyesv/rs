@@ -108,7 +108,7 @@ Use a journal or a lab notebook
 
 ## Laboratory notebook {.fl-r .full-v .shadow}
 
-![](images/writing-lab-notebook.jpg)
+![](../shared/images/writing-lab-notebook.jpg)
 
 In experimental sciences we record every experiment in a paper notebook
 

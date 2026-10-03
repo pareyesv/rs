@@ -395,7 +395,7 @@ That is, based on your name and the subject
 
 ## Does this work? {.shadow .center-h .full-h}
 
-![](images/no-subject-no-avatar.png)
+![](../shared/images/no-subject-no-avatar.png)
 
 ## Always write a Subject
 
@@ -423,7 +423,7 @@ No need to open the email
 
 ## What about this one? {.shadow .center-h .full-h}
 
-![](images/bad-avatar-1.png)
+![](../shared/images/bad-avatar-1.png)
 
 Have I seen this person before?
 
@@ -439,7 +439,7 @@ Your picture should show your face clearly
 
 ## And about this one? {.shadow .center-h .full-h}
 
-![](images/no-avatar-no-name.png)
+![](../shared/images/no-avatar-no-name.png)
 
 ## Always include your full name {.fl-r}
 
@@ -514,11 +514,11 @@ Use instead a shared folder in the cloud
 Sharing Word documents by email is a **VERY BAD IDEA**  
 It leads to _chaos and confusion_
 
-![](images/sharing-word.svg)
+![](../shared/images/sharing-word.svg)
 
 ## {.center-h .full-v .shadow}
 
-![](images/FINAL-doc.png)
+![](../shared/images/FINAL-doc.jpg)
 
 ## Use an Online service
 
@@ -590,7 +590,7 @@ William Stafford Noble. _“A Quick Guide to Organizing Computational Biology Pr
 
 ## Folder structure for data projects {.center-h}
 
-![](images/folder-struct.svg)
+![](../shared/images/folder-struct.svg)
 
 ## Role of each folder
 

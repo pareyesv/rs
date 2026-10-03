@@ -519,7 +519,7 @@ We cannot say the same about Microsoft Word
 
 ## The real advantage: it looks real {.center .full-v}
 
-![](images/latex.png)
+![](../shared/images/latex.png)
 
 ## According to the author of LaTeX
 
@@ -748,18 +748,18 @@ It is easy to change fonts, sizes, colors and other visual attributes, without p
 
 ## Structured Word documents {.no-gap .center-h .full-v .shadow}
 
-![](images/word-styles.png)
+![](../shared/images/word-styles.png)
 
 ## Now the document has structure {.no-gap .center-h .full-v .shadow}
 
-![](images/word-outline.png)
+![](../shared/images/word-outline.png)
 
 ## Collaborating {.center-h}
 
 Sharing Word documents by email is a **VERY BAD IDEA**  
 It leads to _chaos and confusion_
 
-![](images/sharing-word.svg)
+![](../shared/images/sharing-word.svg)
 
 ## Use an Online service
 

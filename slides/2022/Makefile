@@ -1,9 +1,9 @@
 OUT:=$(HOME)/Web/site/slides/2022/talks
 # OUT:=.
-IMG:=images
+SHARED:=../shared/images
+SITE_SHARED:=$(OUT)/../shared/images
 TGT_HTML:=$(patsubst %.md, $(OUT)/%.html, $(wildcard *.md))
-TGT_IMG:=$(patsubst $(IMG)/%, $(OUT)/$(IMG)/%, $(wildcard $(IMG)/*))
-TGT_IMG:=$(TGT_IMG:.gv=.svg)
+TGT_IMG:=$(patsubst $(SHARED)/%, $(SITE_SHARED)/%, $(wildcard $(SHARED)/*g)) $(patsubst images/%, $(OUT)/images/%, $(wildcard images/*))
 
 all: $(TGT_HTML) $(TGT_IMG)
 
@@ -11,9 +11,9 @@ $(OUT)/%.html: %.md defaults.yaml template.html
 	pandoc --defaults=defaults.yaml $< -o $@
 	@date '+%Y-%m-%d %H:%M:%S "$<" done'
 
-$(OUT)/$(IMG)/%.png: $(IMG)/%.png
+$(SITE_SHARED)/%: $(SHARED)/%
+	@mkdir -p $(dir $@)
 	cp $^ $@
 
-$(OUT)/$(IMG)/%.svg: $(IMG)/%.gv
-	dot -Tsvg -o $@ $^
-	@date '+%Y-%m-%d %H:%M:%S "$<" done'
+$(OUT)/images/%: images/%
+	cp $^ $@

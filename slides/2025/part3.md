@@ -14,11 +14,11 @@ cSpell: ignore Supercomputing Feibelman Annesley Derish nocite INRIA Toggl Kanar
 Sharing Word documents by email is a **VERY BAD IDEA**  
 It leads to _chaos and confusion_
 
-![](images/sharing-word.svg)
+![](../shared/images/sharing-word.svg)
 
 ## {.center-h .full-v .shadow}
 
-![](images/FINAL-doc.jpg)
+![](../shared/images/FINAL-doc.jpg)
 
 ## Use an Online service
 
@@ -92,7 +92,7 @@ William Stafford Noble. _“A Quick Guide to Organizing Computational Biology Pr
 
 Suggested for data analysis projects
 
-![](images/folder-struct.svg)
+![](../shared/images/folder-struct.svg)
 
 ## Role of each folder
 
