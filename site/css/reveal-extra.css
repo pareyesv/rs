@@ -343,6 +343,10 @@ code {
   left: 10px; */
 }
 
+.source p {
+  margin: 0;
+}
+
 .reveal .source a {
     color: #808080;
 }

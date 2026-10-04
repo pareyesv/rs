@@ -378,11 +378,23 @@ code {
   left: 0px;
 }
 
+.source p {
+  margin: 0;
+}
+
 .reveal .source a {
     color: #808080;
 }
 
-.centered, .reveal .centered p, .reveal .center p {
+.reveal section.center {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: center; */
+}
+
+.centered, .reveal .centered p, .reveal .centered h1, .reveal .centered h2, .reveal .centered h3, .reveal .centered h4, .reveal .centered h5, .reveal .centered h6 {
   text-align: center;
 }
 
@@ -595,6 +607,8 @@ iframe.logo {
     font-family: 'Outfit', sans-serif;
     font-weight: 500;
     text-align: left;
+    /* Leave room for the logo/icon in the top right corner (0.5in wide + 20px offset) */
+    max-width: calc(100% - 1in);
     /* font-size: 1em; */
 }
 
