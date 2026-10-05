@@ -104,6 +104,14 @@ img {
     margin: 0px 20px 0 0;
 }
 
+.reveal section.level2.fl-r {
+  display: block !important;
+}
+
+.reveal section.level2.fl-r h2 {
+  position: relative;
+}
+
 .fl-r img,
 .fl-r > svg,
 .fl-r div.grViz {
@@ -300,6 +308,7 @@ code {
   text-align: left;
   font-family: 'Inter', sans-serif;
   color: #4a5565;
+  margin: 10px 0;
 }
 
 .reveal .level1 h1, .reveal .level1 p, .reveal .level1 li {
