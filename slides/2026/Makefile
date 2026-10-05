@@ -23,3 +23,7 @@ $(OUT)/images/%g: images/%g
 
 serve: all
 	cd ../../site ; python3 -m http.server 8001
+
+
+## Use https://unsplash.com/ and https://www.pexels.com/ for free images.
+
