@@ -315,7 +315,7 @@ code {
 }
 
 .reveal .level1 h1 {
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", "Futura", "Open Sans", "Lato", sans-serif;
   font-weight: 500;
   text-align: left;
 }
@@ -333,10 +333,10 @@ code {
   background: var(--good-green);
 }
 
-.reveal .good.level1, .reveal .good.level1 h1 {
+.reveal .good.level1, {
   color: white;
-  font-family: "Futura", "Open Sans", "Lato", sans-serif;
-  font-weight: 900;
+  /* font-family: "Outfit", "Futura", "Open Sans", "Lato", sans-serif; */
+  /* font-weight: 900; */
 }
 
 .reveal .good.level1 h1 {
@@ -357,13 +357,27 @@ code {
     content: "";
     position: absolute;
     top: 20px;
-    left: 20px;
+    left: 0px;
     width: 2.5in;
-    height: 0.8in;
+    height: 0.4in;
     background-image: url('../images/Elevate-positivo.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left top;
+}
+
+.reveal .slides > section:first-child h2.author {
+    font-size: 0.6em;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+}
+
+.reveal .slides > section:first-child h3.date {
+    font-size: 0.5em;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
 }
 
 .reveal .slides section {
@@ -645,13 +659,30 @@ iframe.logo {
     background-repeat: no-repeat;
 }
 
+.reveal section.level1:not(.center) h1 {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+}
+
+.reveal section.level2 {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reveal section.level2 h2 {
+  position: absolute;
+  top: 40px;
+}
+
 .reveal section.level2::after {
     content: "";
     position: absolute;
     top: 20px;
     right: 20px;
-    width: 0.5in;
-    height: 0.5in;
+    width: 0.4in;
+    height: 0.4in;
     background-image: url('../images/Elevate-icon-positivo.svg');
     background-size: contain;
     background-repeat: no-repeat;
