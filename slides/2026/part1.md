@@ -1,8 +1,6 @@
 ---
 title: 'Good Practices: Intro'
 subtitle: "A talk for Barcelona Supercomputing Center's Ph.D. students"
-author: Andrés Aravena, PhD
-date: "October 7, 2025"
 lang: en
 cSpell: ignore Supercomputing Feibelman Annesley Derish nocite INRIA Toggl Kanare Nepomuceno Cipriano Vozza sentenc cookiecutter pomodoro cest cedt ecst mesz cookiecutter tiago schuster lazygit
 ---
