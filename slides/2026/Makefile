@@ -22,4 +22,4 @@ $(OUT)/images/%g: images/%g
 	@echo $@
 
 serve: all
-	cd ../../site ; python3 -m http.server
+	cd ../../site ; python3 -m http.server 8001
