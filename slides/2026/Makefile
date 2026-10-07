@@ -1,6 +1,8 @@
 OUT:=../../site/2026
+SHARED:=../shared/images
+SITE_SHARED:=$(OUT)/../shared/images
 TGT_HTML:=$(patsubst %.md, $(OUT)/%.html, $(wildcard *.md))
-TGT_IMG:=$(patsubst images/%, $(OUT)/images/%, $(wildcard images/*ng) $(wildcard images/*pg) $(wildcard images/*/*g) $(wildcard images/*/*/*g))
+TGT_IMG:=$(patsubst $(SHARED)/%, $(SITE_SHARED)/%, $(wildcard $(SHARED)/*g)) $(patsubst images/%, $(OUT)/images/%, $(wildcard images/*ng) $(wildcard images/*pg) $(wildcard images/*/*g) $(wildcard images/*/*/*g))
 TGT_IMG:=$(TGT_IMG:.gv=.svg)
 
 all: $(TGT_HTML) $(TGT_IMG)
@@ -14,6 +16,12 @@ $(OUT)/%.html: %.md defaults.yaml template.html
 
 images/%.svg: gv/%.gv
 	dot -Tsvg -o $@ $^
+
+$(SITE_SHARED)/%: $(SHARED)/%
+	@mkdir -p $(dir $@)
+	@ln -f '$^' '$@'
+	@chmod a+r '$@'
+	@echo '$@'
 
 $(OUT)/images/%g: images/%g
 	@mkdir -p $(dir $@)
