@@ -13,7 +13,7 @@ Congratulations, by the way
 
 But it can also be stressful
 
-## We want to present some ideas on how to (successfully) survive  your Ph.D. {.center}
+## We want to present some ideas <br/> on how to (successfully) <br/> survive  your Ph.D. {.center}
 
 ## Some of them are endorsed by research {.center}
 
@@ -58,9 +58,9 @@ Tools will change in time. There will be new tools
 
 You probably use tools that did not exist 10 years ago
 
-And they often are a matter of _personal taste_
+And they often are a matter of *personal taste*
 
-So we will focus on the _philosophy_ of the tools
+So we will focus on the *philosophy* of the tools
 
 (i.e. the part that will not change)
 
@@ -90,14 +90,14 @@ We misremember a lot
 
 **Solution:** Use a journal
 
-## We are bad at estimating projects' complexity
+## We are bad at estimating projects' complexity {.small}
 
 We think that we can finish a project in less time that it will really take
 
 **Solution:**
 
 + Write in your journal how much time you worked every day
-  + Tools like _Toggl Track_ can also be used
+  + Tools like *Toggl Track* can also be used
 + Reflect on how did you use your time
 
 # Good practice 1  {.center .good}
@@ -116,7 +116,7 @@ In experimental sciences we record every experiment in a paper notebook
 + What were the lessons learned
 
 ::: source  
-Kanare, H. M. (1985). _Writing the laboratory notebook_. American Chemical Society.  
+Kanare, H. M. (1985). *Writing the laboratory notebook*. American Chemical Society.  
 :::
 
 ## Lab Notebooks are legal documents
@@ -131,20 +131,22 @@ In case you want to patent something, you need a Lab notebook
 You should at least carry a lab notebook in digital format
 
 ::: source  
-Kanare, H. M. (1985). _Writing the laboratory notebook_. American Chemical Society.  
+Kanare, H. M. (1985). *Writing the laboratory notebook*. American Chemical Society.  
 :::
 
-## Logbooks and Commonplace books
+## Logbooks
 
-In the navy it is a standard practice to _log_ everything
+In the navy it is a standard practice to *log* everything
 
 It was the 18th century version of a plane's black box
 
-It was also typical for writers to carry a notebook to write notable extracts from texts
+## Commonplace books
 
-This was called a _Commonplace book_
+It was typical for writers to carry a notebook to write notable extracts from texts
 
-Some other people used to write a _personal journal_ or _diary_
+This was called a *Commonplace book*
+
+Some other people used to write a *personal journal* or *diary*
 
 ## Bullet journal {.fl-r .full-v .shadow}
 
@@ -160,7 +162,7 @@ A bullet journal is
 Get a simple notebook and visit <https://bulletjournal.com/>
 
 ::: source  
-Carroll, Ryder. 2018. _The Bullet Journal Method: Track the Past, Order the Present, Design the Future._  
+Carroll, Ryder. 2018. *The Bullet Journal Method: Track the Past, Order the Present, Design the Future.*  
 New York: Portfolio, Penguin.
 :::
 
@@ -169,10 +171,10 @@ show my BuJo.
 Don't believe the fancy BuJo you see on the web. They do not need to be beautiful
 :::
 
-## Key Ideas
+## Key Ideas {.small}
 
 + Do not trust your memory
-  + "Your mind is for having ideas, not holding them"
+  + *"Your mind is for having ideas, not holding them"*
 + Write how you solved each problem every day
 + Write what you learned every day
   + "Today I learned..."
@@ -182,26 +184,26 @@ Don't believe the fancy BuJo you see on the web. They do not need to be beautifu
 
 :::source
 First quotation is from  
-Allen, D. (2015). _Getting things done: The art of stress-free productivity._ Penguin Books.
+Allen, D. (2015). *Getting things done: The art of stress-free productivity.* Penguin Books.
 :::
 
 # More reasons for good practices {.good .center}
 
 (other ways our mind fools us)
 
-## We think that everybody knows what we know, so they do not need explanations
+## We think that everybody knows what we know, so they do not need explanations {.small}
 
-This is the _curse of knowledge_
+This is the *curse of knowledge*
 
 > "I understand it, so everybody understands it"
 
-It is **the main reason** why our text is hard to read
+It is **the main reason** why it is hard to read what we write
 
-**Solution:** This one I'm still trying to figure out. Practice.
+**Solution:** Practice. Empathy.
 
-## We think that everything we do is easy
+## We think that everything we do is easy {.small}
 
-This is _Impostor Syndrome_
+This is *Impostor Syndrome*
 
 > "I'm not really that good, and one day they will realize I don't know anything"
 
@@ -210,9 +212,9 @@ We learn a little every day, so it never feels hard
 But we accumulated learning in a large period,  
 and it is hard to see how much we have learned
 
-**Solution:** Look at your journal and _reflect_ on how much have you learned in the last year
+**Solution:** Look at your journal and *reflect* on how much have you learned in the last year
 
-## Impostor syndrome {.center .full-v}
+## Impostor syndrome {.center-h .full-v}
 
 <!-- source: https://imgs.xkcd.com/comics/impostor_syndrome_2x.png -->
 ![](../shared/images/xkcd-impostor-syndrome.png)
@@ -223,7 +225,7 @@ and it is hard to see how much we have learned
 
 ## We don't know that we don't know
 
-This is the _Dunning-Kruger_ effect
+This is the *Dunning-Kruger* effect
 
 > "Incompetent, and unaware of it"
 
@@ -232,32 +234,32 @@ It is hard to improve if we don't know we are bad
 **Solution:** Be open to criticism of your work
 
 :::source  
-Kruger, J., & Dunning, D. (1999). Unskilled and unaware of it: How difficulties in recognizing one’s own incompetence lead to inflated self-assessments. _Journal of Personality and Social Psychology_, _77_(6), 1121–1134.
+Kruger, J., & Dunning, D. (1999). Unskilled and unaware of it: How difficulties in recognizing one’s own incompetence lead to inflated self-assessments. *Journal of Personality and Social Psychology*, *77*(6), 1121–1134.
 :::
 
-## You are not your work {.center .good-inv .Large}
+## You are not your work {.center .good .Large}
 
 ## Two sides of the coin
 
 Impostor Syndrome and Dunning-Kruger effect are mismatches between self-perception and other people's vision of us
 
-To solve that, we can improve our _Communication_ with colleagues and collaborators
+To solve that, we can improve our *Communication* with colleagues and collaborators
 
 ::: source
 <https://www.explainxkcd.com/wiki/index.php/1954:_Impostor_Syndrome>  
 :::
 
-## **A Ph.D. goal is to produce and communicate new knowledge** {.center .black background="yellow" .Large}
+## **A Ph.D. goal is to produce and communicate new knowledge** {.center .black background="yellow" .large}
 
 (we call it "Doing Science")
 
-## **The key word here is _communicate_** {.center}
+## **The key word here is *communicate*** {.center}
 
 What is the value of a result that is not made public?
 
 # Keyword 1: Communication {.center .good}
 
-## We communicate with our _collaborators_
+## We communicate with our *collaborators*
 
 Most of research is done in teams
 
@@ -267,7 +269,7 @@ Good practices help teamwork, by:
 + Coordinate next steps
 + Avoid work duplication
 
-## …but I work alone…
+<!-- ## …but I work alone…
 
 Even if we work alone, we are still communicating
 
@@ -278,7 +280,7 @@ Even if we work alone, we are still communicating
 + with the **general public**
 + with our **future self**
 
-Each one of these interactions can improve following a good practice
+Each one of these interactions can improve following a good practice -->
 
 ## Communicate with **your supervisor**
 
@@ -286,7 +288,7 @@ Research results are not enough
 
 You must convince your boss (and the jury) that you deserve to be called "Doctor"
 
-+ Make your work _easy to understand_
++ Make your work *easy to understand*
 
 + Make clear what is your original contribution
 
@@ -294,9 +296,9 @@ You must convince your boss (and the jury) that you deserve to be called "Doctor
 
 Referees are busy people who works for free
 
-+ Give them all they need to _replicate_ and _validate_ your work
++ Give them all they need to *replicate* and *validate* your work
 
-+ Being _clear and transparent_ helps them to decide fast
++ Being *clear and transparent* helps them to decide fast
 
 You will get published faster  
 (or at least get good feedback)
@@ -309,7 +311,7 @@ The game does not end when you publish
 
 50% of papers are read only by the referee
 
-+ Make your work easy to _understand_ and _replicate_
++ Make your work easy to *understand* and *replicate*
 
 ::: source  
 Evans, J. A. (2008). Electronic Publication and the Narrowing of Science and Scholarship. Science, 321(5887), 395–399.  
@@ -321,13 +323,13 @@ Eventually, your work will have an impact outside academia
 
 (the end goal is to make a better world, no?)
 
-We need to be aware of the _ethical_ implications
+We need to be aware of the *ethical* implications
 
 + Access, licensing, copyright models
 + Privacy concerning test subject
 + Truth and academic integrity
 
-> This is reflected in the _Reproducibility Crisis_
+<!-- > This is reflected in the *Reproducibility Crisis* -->
 
 ## …with your **future self**
 
@@ -339,4 +341,4 @@ Undocumented code/protocols are hard to understand…
 
 and you can only blame yourself
 
-# Let's have a break now {.center .good-inv}
+# Let's have a break now {.center .good}

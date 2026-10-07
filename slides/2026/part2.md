@@ -5,7 +5,7 @@ lang: en
 cSpell: ignore Supercomputing Feibelman Annesley Derish nocite INRIA Toggl Kanare Nepomuceno Cipriano Vozza sentenc cookiecutter pomodoro cest cedt ecst mesz cookiecutter tiago schuster lazygit
 ---
 
-# Email {.center .good}
+# Communication via Email {.center .good}
 
 (also applies to WhatsApp, Slack, etc.)
 
@@ -41,7 +41,7 @@ _Entrepreneur_ website. <https://morideno.com/write-five-sentences-about> (Octob
 
 "A Disciplined Way To Deal With Email"
 
-E-mail takes too long to respond to, resulting in continuous inbox overflow for those who receive a lot of it.
+<!-- E-mail takes too long to respond to, resulting in continuous inbox overflow for those who receive a lot of it. -->
 
 Treat all email responses like SMS text messages, using a set number of letters per response. Since it’s too hard to count letters, we count sentences instead.
 
@@ -132,13 +132,13 @@ Some email platforms allow you to show your picture
 
 Your picture should show your face clearly
 
-# Faces {.center .good-inv}
+# Faces {.center}
 
 a parenthesis
 
-## Have you seen the movie Ocean's Eleven {.center-h}
+## Have you seen the movie Ocean's Eleven? {.center-h}
 
-![](images/Ocean's_Eleven_2001_Poster.jpg)
+![](../shared/images/Oceans_Eleven_2001_Poster.jpg)
 
 ::: source
 By C@rtelesmix, Fair use, <https://en.wikipedia.org/w/index.php?curid=9045976>
@@ -146,7 +146,7 @@ By C@rtelesmix, Fair use, <https://en.wikipedia.org/w/index.php?curid=9045976>
 
 ## Do you know these people? {.center-h .full-v .shadow}
 
-![](images/960px-Pitt_Clooney_Damon.jpg)
+![](../shared/images/960px-Pitt_Clooney_Damon.jpg)
 
 ::: source
 By Airman 1st Class Tanaya M. Harms - U.S. Air Forces in Europe, Public Domain, <https://commons.wikimedia.org/w/index.php?curid=392550>
@@ -154,7 +154,7 @@ By Airman 1st Class Tanaya M. Harms - U.S. Air Forces in Europe, Public Domain, 
 
 ## Do you know him? What is his name? {.center-h .full-v .shadow}
 
-![](images/960px-CarlReinerApr10.jpg)
+![](../shared/images/960px-CarlReinerApr10.jpg)
 
 ::: source
 By Angela George, CC BY-SA 3.0, <https://commons.wikimedia.org/w/index.php?curid=10256969>
@@ -162,7 +162,7 @@ By Angela George, CC BY-SA 3.0, <https://commons.wikimedia.org/w/index.php?curid
 
 ## And he? {.center-h .full-v .shadow}
 
-![](images/Casey_Affleck_(cropped).jpg)
+![](../shared/images/Casey_Affleck_(cropped).jpg)
 
 ::: source
 By Jen from Boston from South Boston, MA - col and Casey Affleck, CC BY 2.0, <https://commons.wikimedia.org/w/index.php?curid=19711626>
@@ -170,13 +170,13 @@ By Jen from Boston from South Boston, MA - col and Casey Affleck, CC BY 2.0, <ht
 
 ## Do you kno him? {.center-h .full-v .shadow}
 
-![](images/600px-6.20.09ElliotGould1SecondFilm.jpg)
+![](../shared/images/600px-6.20.09ElliotGould1SecondFilm.jpg)
 
 ::: source
 By Collaboration foundation The 1 Second Film derivative work: Nightscream (talk) - Elliot_Gould.jpg, CC BY-SA 3.0, <https://commons.wikimedia.org/w/index.php?curid=7406412>
 :::
 
-## Faces are important
+## Faces are important {.large}
 
 More than names, we remember faces
 
@@ -184,22 +184,24 @@ I guess it is an evolutionary trait
 
 ## Where does your cat look? {.center-h .full-v .shadow}
 
-![](images/cat-looking-at-you.jpeg)
+![](../shared/images/cat-looking-at-you.jpeg)
 
-# Names {.center .good-inv}
+# Names {.center .good}
 
 ## And about this one? {.shadow .center-h .full-h}
 
 ![](../shared/images/no-avatar-no-name.png)
 
-## Always include your full name {.fl-r}
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/205px-Pablo_picasso_1.jpg)
+## Always include your full name
 
 Don't make people guess.  
 Write your name the way you want to be called
 
-Bad if too short or too long:
+## Bad if too short or too long {.fl-r}
+
+![](../shared/images/250px-Pablo_picasso_1.jpg)
+
+<!-- https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/250px-Pablo_picasso_1.jpg -->
 
 + Pablo
 + Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso
@@ -222,7 +224,7 @@ Good if is the name you like people to call you
 
 make it short -->
 
-## Write it backwards
+## Write it backwards {.small}
 
 It is easy to press `SEND` before attaching a file  
 or before writing the subject
