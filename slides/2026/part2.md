@@ -160,15 +160,15 @@ By Airman 1st Class Tanaya M. Harms - U.S. Air Forces in Europe, Public Domain, 
 By Angela George, CC BY-SA 3.0, <https://commons.wikimedia.org/w/index.php?curid=10256969>
 :::
 
-## And he? {.center-h .full-v .shadow}
+<!-- ## And he? {.center-h .full-v .shadow}
 
 ![](../shared/images/Casey_Affleck_(cropped).jpg)
 
 ::: source
 By Jen from Boston from South Boston, MA - col and Casey Affleck, CC BY 2.0, <https://commons.wikimedia.org/w/index.php?curid=19711626>
-:::
+::: -->
 
-## Do you kno him? {.center-h .full-v .shadow}
+## Do you know him? {.center-h .full-v .shadow}
 
 ![](../shared/images/600px-6.20.09ElliotGould1SecondFilm.jpg)
 
@@ -276,4 +276,4 @@ Other abbreviations are ambiguous
 + AMT is Armenia Time or Amazon Time
 + CEST = CEDT = ECST = MESZ = UTC+2
 
-# Let's have a break now {.center .good-inv}
+# Let's have a break now {.center .good}
