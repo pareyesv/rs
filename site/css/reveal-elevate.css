@@ -445,6 +445,8 @@ h3 {
 
 .full-v img, .full-v svg {
     height: 550px;
+    position: absolute;
+    bottom: 44px;
 }
 
 .inline-img img, .inline-img svg {
