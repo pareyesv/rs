@@ -383,6 +383,10 @@ h3 {
   justify-content: center;
 }
 
+.reveal section.level2.center h2 {
+  position: relative;
+}
+
 .thank-you-slide a {
     color: white;
     border-bottom: 0;
@@ -452,6 +456,10 @@ h3 {
 
 .reveal section.level2.fl-r.full-v img {
     bottom: 0;
+}
+
+.reveal section.level2.fl-r.full-v p {
+    margin-block: revert;
 }
 
 .inline-img img, .inline-img svg {
