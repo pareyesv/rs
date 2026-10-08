@@ -12,7 +12,9 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 
 ## Kanban {.fl-r .full-v .shadow}
 
-![](http://torak.com/wp-content/uploads/2016/04/kanban-board-simple3-1-02.png)
+<!-- ![](http://torak.com/wp-content/uploads/2016/04/kanban-board-simple3-1-02.png) -->
+
+![](../shared/images/kanban-board-simple3-1-02.png)
 
 + Japanese idea
 + Good for teams, but also personal
@@ -28,11 +30,14 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 ## Digital version  {.full-v .shadow .center-h}
 
 <!-- source: https://docs.github.com/assets/cb-550210/mw-1440/images/help/projects-v2/example-board.webp -->
+
 ![](../shared/images/github-project-board.webp)
 
 ## Choosing what to do {.full-v .shadow .center-h}
 
-![](https://luxafor.dk/wp-content/uploads/2018/10/The-Eisenhower-Decision-Matrix-png.png)
+<!-- https://www.duperrin.com/wp-content/uploads/2018/05/Eisenhower-Matrix-Diagram.png -->
+
+![](../shared/images/Eisenhower-Matrix-Diagram.png)
 
 # When to do it? {.center .good}
 
@@ -182,7 +187,7 @@ Use it as a compass
 + Write a link to other cards related to the new one
 + Can be done in paper, or in the computer
 
-## Writng for busy readers {.shadow .full-v}
+## Writing for busy readers {.shadow .full-v .fl-r}
 
 <!-- m.media-amazon.com/images/I/71ZDBqlXpyL._SL1500_.jpg -->
 
