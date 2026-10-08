@@ -4,27 +4,6 @@ date: 13 November 2025
 author: Andres Aravena
 ---
 
-## I am Andres Aravena
-
-+ Senior AI Engineer at Ennova-Research (Venice)
-+ Former academic at Istanbul University
-+ Mathematical Engineer, U. of Chile
-+ PhD Informatics, INRIA–U Rennes 1, France
-+ PhD Mathematical Modeling, U. of Chile
-
-## I used to teach Bioinformatics
-
-That is, a mix of Biology and Informatics
-
-Every class **50%** of my students were *bored*
-
-+ Some said I teach obvious things
-+ Some said I teach incomprehensible things
-
-The *50%* changed every class
-
-Today will be similar
-
 ## Version control
 
 If you develop code (or documents in text format), you will probably keep track of it in some *Version Control System*
@@ -113,6 +92,24 @@ Which of these commit messages are clear to you?
 + fix issues crated by cleanup
 + cleanup backend (untested)
 + small changes in tools
+
+## Conventional Commits
+The Conventional Commits specification is a lightweight convention on top of commit messages. It provides an easy set of rules for creating an explicit commit history; which makes it easier to write automated tools on top of. This convention dovetails with SemVer, by describing the features, fixes, and breaking changes made in commit messages.
+
+The commit message should be structured as follows:
+
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+The commit contains the following structural elements, to communicate intent to the consumers of your library:
+
+fix: a commit of the type fix patches a bug in your codebase (this correlates with PATCH in Semantic Versioning).
+feat: a commit of the type feat introduces a new feature to the codebase (this correlates with MINOR in Semantic Versioning).
+BREAKING CHANGE: a commit that has a footer BREAKING CHANGE:, or appends a ! after the type/scope, introduces a breaking API change (correlating with MAJOR in Semantic Versioning). A BREAKING CHANGE can be part of commits of any type.
+types other than fix: and feat: are allowed, for example @commitlint/config-conventional (based on the Angular convention) recommends build:, chore:, ci:, docs:, style:, refactor:, perf:, test:, and others.
+footers other than BREAKING CHANGE: <description> may be provided and follow a convention similar to git trailer format.
 
 ## Make more changes
 
