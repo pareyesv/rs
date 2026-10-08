@@ -1,8 +1,8 @@
 ---
 title: "Recommended Books"
-subtitle: "A talk for BSC's Ph.D. students"
+subtitle: ""
 author: Andrés Aravena, PhD
-date: "October 7, 2025"
+date: "October 9, 2026"
 lang: en
 mathjax: false
 cSpell: ignore postit bujo maketime helü silvia zettelkasten
@@ -23,12 +23,12 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 ## Example {.full-v .shadow .center-h}
 
 <!-- source: https://www.5sensesll.com/wp-content/uploads/2020/04/IMG_3741-2.jpg -->
-![](images/kanban-example.jpg)
+![](../shared/images/kanban-example.jpg)
 
 ## Digital version  {.full-v .shadow .center-h}
 
 <!-- source: https://docs.github.com/assets/cb-550210/mw-1440/images/help/projects-v2/example-board.webp -->
-![](images/github-project-board.webp)
+![](../shared/images/github-project-board.webp)
 
 ## Choosing what to do {.full-v .shadow .center-h}
 
@@ -40,7 +40,7 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 
 ## Getting Things Done {.fl-r .full-v .shadow}
 
-![GTD](images/GTD-2015.jpg)
+![GTD](../shared/images/GTD-2015.jpg)
 
 + Collect everything in few _inboxes_
   + Mail Inbox
@@ -63,7 +63,7 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 
 ## Make Time {.fl-r .full-v .shadow}
 
-![maketime](images/maketime.jpg)
+![maketime](../shared/images/maketime.jpg)
 
 + Highlight
   + How do you want to remember this day?
@@ -77,7 +77,7 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 ## Digital Minimalism  {.fl-r .full-v .shadow}
 
 <!-- source: https://cdn.dc5.ro/img-prod/694670713-0.jpeg -->
-![](images/digital-minimalism.jpeg)
+![](../shared/images/digital-minimalism.jpeg)
 
 + Avoid social media
 + It is an addiction
@@ -86,7 +86,7 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 
 ## Pomodoro Technique {.fl-r .full-v .shadow}
 
-![pomodoro](images/pomodoro.jpg)
+![pomodoro](../shared/images/pomodoro.jpg)
 
 + Avoid procrastination
 + Commit to work for 25 minutes
@@ -105,7 +105,7 @@ Use a calendar to block half days
 
 ## The Art of War {.fl-r .full-v .shadow}
 
-![](images/art-of-war.jpg)
+![](../shared/images/art-of-war.jpg)
 
 + Chinese general
 + minister to King Helü of Wu
@@ -114,7 +114,7 @@ Use a calendar to block half days
 
 ## The War of Art {.fl-r .full-v .shadow}
 
-![](images/war-of-art.jpg)
+![](../shared/images/war-of-art.jpg)
 
 "There’s a secret that real writers know that wannabe writers don’t, and the secret is this:
 
@@ -164,7 +164,7 @@ Use it as a compass
 
 ## How to write a lot {.fl-r .full-v .shadow}
 
-![silvia](images/writeAlot.jpg){style="height: 300px"}
+![silvia](../shared/images/writeAlot.jpg){style="height: 300px"}
 
 + Write every day
 + Get into the "writing addiction"
@@ -174,7 +174,7 @@ Use it as a compass
 ## Second Brain {.fl-r .full-v .shadow}
 
 <!-- source: https://static.hebban.nl/covers/00000650/normal/41m03vfrcQL._SX327_BO1%2C204%2C203%2C200_.jpg -->
-![](images/second-brain.jpg)
+![](../shared/images/second-brain.jpg)
 
 + Zettelkasten
 + Write summaries with your own words
@@ -182,12 +182,11 @@ Use it as a compass
 + Write a link to other cards related to the new one
 + Can be done in paper, or in the computer
 
-## Tools
+## Writng for busy readers {.shadow .full-v}
 
-+ Evernote
-+ Notion
-+ Roaming research
-+ Obsidian
+<!-- m.media-amazon.com/images/I/71ZDBqlXpyL._SL1500_.jpg -->
+
+![](../shared/images/writting-for-busy-readers.jpg)
 
 <style>
   figcaption {display: none}
