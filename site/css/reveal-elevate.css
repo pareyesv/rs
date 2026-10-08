@@ -79,6 +79,7 @@ dd {
 
 .reveal ul, .reveal ol {
   display: block;
+  margin: 0;
 }
 
 .reveal table {
@@ -445,8 +446,8 @@ h3 {
 
 .full-v img, .full-v svg {
     height: 550px;
-    position: absolute;
-    bottom: 44px;
+    /* position: absolute; */
+    /* bottom: 44px; */
 }
 
 .inline-img img, .inline-img svg {
