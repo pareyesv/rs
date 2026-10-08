@@ -81,13 +81,14 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 
 ## Digital Minimalism  {.fl-r .full-v .shadow}
 
-<!-- source: https://cdn.dc5.ro/img-prod/694670713-0.jpeg -->
-![](../shared/images/digital-minimalism.jpeg)
+![minim](../shared/images/digital-minimalism.jpeg)
 
 + Avoid social media
 + It is an addiction
 + "Information Obesity"
 + "Cheap Calories"
+
+<!-- source: https://cdn.dc5.ro/img-prod/694670713-0.jpeg -->
 
 ## Pomodoro Technique {.fl-r .full-v .shadow}
 
@@ -102,7 +103,7 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 
 ## Deep work {.fl-r .full-v .shadow}
 
-![](https://tldv-wordpress.s3.us-east-2.amazonaws.com/media/20210405043801/Deep-Work-by-Cal-Newport-Book.jpg)
+![](../shared/images/deep-work.jpg)
 
 Block time away from interruptions
 
@@ -161,7 +162,7 @@ any act that derives from our higher nature instead of our lower.
 
 Any of these will elicit Resistance.
 
-## Resistance marks the way {.center .black background="var(--color-yellow)"}
+## Resistance marks the way {.center .black background="var(--color-yellow)" .Large}
 
 Use it as a compass
 
@@ -169,7 +170,7 @@ Use it as a compass
 
 ## How to write a lot {.fl-r .full-v .shadow}
 
-![silvia](../shared/images/writeAlot.jpg){style="height: 300px"}
+![silvia](../shared/images/write-a-lot.jpg)
 
 + Write every day
 + Get into the "writing addiction"
@@ -179,7 +180,7 @@ Use it as a compass
 ## Second Brain {.fl-r .full-v .shadow}
 
 <!-- source: https://static.hebban.nl/covers/00000650/normal/41m03vfrcQL._SX327_BO1%2C204%2C203%2C200_.jpg -->
-![](../shared/images/second-brain.jpg)
+![](../shared/images/smart-notes.jpg)
 
 + Zettelkasten
 + Write summaries with your own words
@@ -192,6 +193,43 @@ Use it as a compass
 <!-- m.media-amazon.com/images/I/71ZDBqlXpyL._SL1500_.jpg -->
 
 ![](../shared/images/writting-for-busy-readers.jpg)
+
+* Less is more
+* Design for easy navigation
+* Emphasize why they should care
+* Make reading easy
+* Use enough formatting, but no more
+* Make responding easy
+
+
+They provide a *prompt* for rewriting your text, and a checklist
+
+::: source
+https://writingforbusyreaders.com/resources/
+:::
+
+## Other books {.full-v .shadow}
+
+:::::: columns-2
+::: col
+![alt text](../shared/images/philosophy-of-software-design.jpg)
+:::
+::: col
+![alt text](../shared/images/how-to-go-to-the-office.jpg)
+:::
+::::::
+
+## More books {.full-v .shadow}
+
+:::::: columns-2
+::: col
+![alt text](../shared/images/surrounded-by-idiots.jpg)
+
+:::
+::: col
+![alt text](../shared/images/great-work-without-being.jpg)
+:::
+::::::
 
 <style>
   figcaption {display: none}
