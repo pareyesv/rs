@@ -23,7 +23,8 @@ But it can also be stressful
 
 ## I am Andres Aravena
 
-+ Senior AI Engineer at Ennova-Research (Venice)
++ Senior AI Engineer at Elevate Srl (Venice)
+  + Previously known as Ennova-Research
 + Former academic at Istanbul University
 + Mathematical Engineer, U. of Chile
 + PhD Informatics, INRIA–U Rennes 1, France
