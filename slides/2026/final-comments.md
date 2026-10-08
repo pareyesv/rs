@@ -1,64 +1,11 @@
 ---
-title: "Structured documents"
+title: "Final Comments"
 description: "Writing documents that are easy to understand"
 author: Andrés Aravena, PhD
 date: "October 9, 2026"
 lang: en
 cSpell: ignore Supercomputing Feibelman Annesley Derish nocite INRIA Toggl Kanare Nepomuceno Cipriano Vozza sentenc cookiecutter pomodoro cest cedt ecst mesz cookiecutter tiago schuster lazygit
 ---
-
-# Structured Documents {.center .good}
-
-## Structured documents
-
-<!-- markdownlint-disable MD040 MD033 MD036 -->
-
-You probably know that using a good _data structure_ can dramatically improve an algorithm
-
-And you use _structured programs_
-
-The same applies to structuring our documents
-
-Maybe you have used LaTeX, or Markdown
-
-Maybe you know HTML
-
-## Separation of concerns {.large}
-
-The key idea is to describe _what things are_,  
-not _how they look_
-
-Describe the role of text, not the "looks"
-
-Separate style from structure
-
-::: source
-This part is based on the ideas discussed in "LaTeX: A Document Preparation System" by Leslie Lamport (1986).
-:::
-
-## It is like a house {.large}
-
-Structure makes the house solid and comfortable
-
-If you only do decoration, the house looks nice but it is not solid
-
-Structure of the walls come first
-
-Painting the walls in a nice color is secondary
-
-## Structural elements {.small}
-
-+ Sections, subsections, paragraphs
-+ Figures and Tables
-+ Lists
-+ References
-+ Equations
-+ Metadata
-  + Title
-  + Authors
-  + Affiliations
-  + Dates: submission, acceptance
-  + Media/format
 
 # Final comments {.center .good}
 
