@@ -1,5 +1,5 @@
 ---
-title: 'Good Practices: Email'
+title: 'Communication'
 subtitle: "A talk for BSC's Ph.D. students"
 lang: en
 cSpell: ignore Supercomputing Feibelman Annesley Derish nocite INRIA Toggl Kanare Nepomuceno Cipriano Vozza sentenc cookiecutter pomodoro cest cedt ecst mesz cookiecutter tiago schuster lazygit

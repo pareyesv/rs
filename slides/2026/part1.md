@@ -1,5 +1,5 @@
 ---
-title: 'Good Practices: Intro'
+title: 'Good Practices'
 subtitle: "A talk for Barcelona Supercomputing Center's Ph.D. students"
 lang: en
 cSpell: ignore Supercomputing Feibelman Annesley Derish nocite INRIA Toggl Kanare Nepomuceno Cipriano Vozza sentenc cookiecutter pomodoro cest cedt ecst mesz cookiecutter tiago schuster lazygit

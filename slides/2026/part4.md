@@ -1,5 +1,5 @@
 ---
-title: 'Good Practices: Structured Documents'
+title: 'Structured Documents'
 subtitle: "A talk for BSC's Ph.D. students"
 lang: en
 cSpell: ignore Supercomputing Feibelman Annesley Derish nocite INRIA Toggl Kanare Nepomuceno Cipriano Vozza sentenc cookiecutter pomodoro cest cedt ecst mesz cookiecutter tiago schuster lazygit
@@ -19,9 +19,10 @@ Maybe you have used LaTeX, or Markdown
 
 Maybe you know HTML
 
-## Separation of concerns
+## Separation of concerns {.large}
 
-The key idea is to describe _what things are_, not _how they look_
+The key idea is to describe _what things are_,  
+not _how they look_
 
 Describe the role of text, not the "looks"
 
@@ -41,7 +42,7 @@ Structure of the walls come first
 
 Painting the walls in a nice color is secondary
 
-## Structural elements
+## Structural elements {.small}
 
 + Sections, subsections, paragraphs
 + Figures and Tables
