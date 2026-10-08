@@ -446,8 +446,12 @@ h3 {
 
 .full-v img, .full-v svg {
     height: 550px;
-    /* position: absolute; */
-    /* bottom: 44px; */
+    position: relative;
+    bottom: -65px;
+}
+
+.reveal section.level2.fl-r.full-v img {
+    bottom: 0;
 }
 
 .inline-img img, .inline-img svg {
