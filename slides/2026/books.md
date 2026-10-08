@@ -8,40 +8,7 @@ mathjax: false
 cSpell: ignore postit bujo maketime helü silvia zettelkasten
 ---
 
-# What to do? {.center .good}
-
-## Kanban {.fl-r .full-v .shadow}
-
-<!-- ![](http://torak.com/wp-content/uploads/2016/04/kanban-board-simple3-1-02.png) -->
-
-![](../shared/images/kanban-board-simple3-1-02.png)
-
-+ Japanese idea
-+ Good for teams, but also personal
-+ Write tasks in postit cards
-+ Put the cards in three or more columns
-+ **Limit the size of _work in progress_**
-
-## Example {.full-v .shadow .center-h}
-
-<!-- source: https://www.5sensesll.com/wp-content/uploads/2020/04/IMG_3741-2.jpg -->
-![](../shared/images/kanban-example.jpg)
-
-## Digital version  {.full-v .shadow .center-h}
-
-<!-- source: https://docs.github.com/assets/cb-550210/mw-1440/images/help/projects-v2/example-board.webp -->
-
-![](../shared/images/github-project-board.webp)
-
-## Choosing what to do {.full-v .shadow .center-h}
-
-<!-- https://www.duperrin.com/wp-content/uploads/2018/05/Eisenhower-Matrix-Diagram.png -->
-
-![](../shared/images/Eisenhower-Matrix-Diagram.png)
-
-# When to do it? {.center .good}
-
-# Books {.center .good}
+<!-- # Books {.center .good} -->
 
 ## Getting Things Done {.fl-r .full-v .shadow}
 
@@ -90,6 +57,14 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 
 <!-- source: https://cdn.dc5.ro/img-prod/694670713-0.jpeg -->
 
+## Deep work {.fl-r .full-v .shadow}
+
+![](../shared/images/deep-work.jpg)
+
+Block time away from interruptions
+
+Use a calendar to block half days
+
 ## Pomodoro Technique {.fl-r .full-v .shadow}
 
 ![pomodoro](../shared/images/pomodoro.jpg)
@@ -100,14 +75,6 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
   + Restart if broken
 + Use any timer, even a kitchen one
 + Stop for 5 minutes at the end of each cycle
-
-## Deep work {.fl-r .full-v .shadow}
-
-![](../shared/images/deep-work.jpg)
-
-Block time away from interruptions
-
-Use a calendar to block half days
 
 ## The Art of War {.fl-r .full-v .shadow}
 
@@ -124,13 +91,13 @@ Use a calendar to block half days
 
 "There’s a secret that real writers know that wannabe writers don’t, and the secret is this:
 
-It’s not the writing part that’s hard.
+It’s not the writing part that’s hard
 
-What’s hard is sitting down to write.
+What’s hard is sitting down to write
 
-What keeps us from sitting down is Resistance.
+What keeps us from sitting down is *Resistance*
 
-## Resistance
+## Name it: *Resistance*
 
 "Resistance cannot be seen, touched, heard, or smelled.
 
@@ -144,21 +111,18 @@ What keeps us from sitting down is Resistance.
 
 ## Things that trigger Resistance
 
-"The following is a list, in no particular order, of activities that often trigger Resistance:
+"The following is a (partial) list of activities that often trigger *Resistance*:
 
-## 1. The pursuit of any calling in writing, painting, music, film, dance, or any creative art, however marginal or unconventional
-
-## 2. The launching of any entrepreneurial venture or enterprise, for profit or otherwise
-
-## 3. Any diet or health regimen
-
-## 6. Any course or program designed to overcome an unwholesome habit or addiction
+> + Any creative art calling in writing, painting, music, etc.
+> + Any entrepreneurial venture or enterprise
+> + Any diet or health regimen
+> + Any program designed to overcome a habit or addiction
 
 ## In other words
 
-any act that rejects immediate gratification in favor of long-term growth, health, or integrity.
+* Any act that rejects immediate gratification in favor of long-term growth, health, or integrity
 
-any act that derives from our higher nature instead of our lower.
+* Any act that derives from our higher nature
 
 Any of these will elicit Resistance.
 
@@ -187,6 +151,10 @@ Use it as a compass
   + that forces you to understand
 + Write a link to other cards related to the new one
 + Can be done in paper, or in the computer
+
+## The other Second Brain {.fl-r .full-v .shadow}
+
+![alt text](../shared/images/second-brain.jpg)
 
 ## Writing for busy readers {.shadow .full-v .fl-r}
 
