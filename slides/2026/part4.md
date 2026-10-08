@@ -1,6 +1,8 @@
 ---
-title: 'Structured Documents'
-subtitle: "A talk for BSC's Ph.D. students"
+title: "Structured documents"
+description: "Writing documents that are easy to understand"
+author: Andrés Aravena, PhD
+date: "October 9, 2026"
 lang: en
 cSpell: ignore Supercomputing Feibelman Annesley Derish nocite INRIA Toggl Kanare Nepomuceno Cipriano Vozza sentenc cookiecutter pomodoro cest cedt ecst mesz cookiecutter tiago schuster lazygit
 ---
@@ -8,6 +10,8 @@ cSpell: ignore Supercomputing Feibelman Annesley Derish nocite INRIA Toggl Kanar
 # Structured Documents {.center .good}
 
 ## Structured documents
+
+<!-- markdownlint-disable MD040 MD033 MD036 -->
 
 You probably know that using a good _data structure_ can dramatically improve an algorithm
 

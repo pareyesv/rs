@@ -2,12 +2,13 @@
 title: "Structured documents"
 description: "Writing documents that are easy to understand"
 author: Andrés Aravena, PhD
-date: "November 15, 2025"
-published: true
+date: "October 9, 2026"
 lang: en
-cspell: ignore Searls Cifuentes Goodbody rstudio dillinger stackedit MacFarlane draftin longnote calcofluor
+cspell: ignore Searls Cifuentes Goodbody rstudio dillinger stackedit MacFarlane draftin longnote calcofluor Lamport Entscheidungsproblem beamer
 mathjax: false
 ---
+
+# Structured Documents {.center .good}
 
 ## Structured documents
 
@@ -19,15 +20,18 @@ And you use _structured programs_
 
 The same applies to structuring our documents
 
-## Separation of concerns
+Maybe you have used LaTeX, or Markdown
 
-<!-- cSpell:ignore Lamport Entscheidungsproblem beamer -->
+Maybe you know HTML
 
-Separate style from structure
+## Separation of concerns {.large}
+
+The key idea is to describe _what things are_,  
+not _how they look_
 
 Describe the role of text, not the "looks"
 
-The key idea is to describe _what things are_, not _how they look_
+Separate style from structure
 
 ::: source
 This part is based on the ideas discussed in "LaTeX: A Document Preparation System" by Leslie Lamport (1986).
@@ -43,7 +47,7 @@ Structure of the walls come first
 
 Painting the walls in a nice color is secondary
 
-## Structural elements
+## Structural elements {.small}
 
 + Sections, subsections, paragraphs
 + Figures and Tables
@@ -53,7 +57,9 @@ Painting the walls in a nice color is secondary
 + Metadata
   + Title
   + Authors
-  + Dates
+  + Affiliations
+  + Dates: submission, acceptance
+  + Media/format
 
 ## Structured Word documents {.no-gap .center-h .full-v .shadow}
 
