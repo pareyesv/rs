@@ -280,7 +280,7 @@ h3 {
     left: 0px;
     width: 2.5in;
     height: 0.4in;
-    background-image: url('../images/Elevate-positivo.svg');
+    background-image: url('../shared/images/Elevate-positivo.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left top;
@@ -322,7 +322,7 @@ h3 {
     right: 20px;
     width: 0.5in;
     height: 0.5in;
-    background-image: url('../images/Elevate-icon-negativo.svg');
+    background-image: url('../shared/images/Elevate-icon-negativo.svg');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -352,7 +352,7 @@ h3 {
     right: 20px;
     width: 0.4in;
     height: 0.4in;
-    background-image: url('../images/Elevate-icon-positivo.svg');
+    background-image: url('../shared/images/Elevate-icon-positivo.svg');
     background-size: contain;
     background-repeat: no-repeat;
 }
