@@ -193,8 +193,7 @@ Check it with
 
 `git branch -vv`
 
-Old versions used `git checkout` but this can be dangerous  
-(it is too powerful)
+Old versions used `git checkout` but this can be dangerous (it is too powerful)
 
 ## When the experiment finishes
 
