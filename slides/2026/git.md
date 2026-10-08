@@ -8,7 +8,7 @@ author: Andres Aravena
 
 If you develop code (or documents in text format), you will probably keep track of it in some *Version Control System*
 
-Advantages
+## Advantages
 
 1. Keep history of the project so you can change your mind
 2. Serves as backup of your project *on the cloud*
@@ -73,7 +73,7 @@ The key idea is to record **the changes** between code versions
 These snapshots are called **commits**  
 (identified by a long hexadecimal number)
 
-Each commit has a **descriptive message**. Example:
+<!-- Each commit has a **descriptive message**. Example: -->
 
 + `3e81b95` WIP
 + `da41c51` fix issues crated by cleanup
@@ -86,7 +86,7 @@ As if you were giving an order
 
 That way your collaborators can know what the commit will do when applied
 
-Which of these commit messages are clear to you?
+## Which of these commit messages are clear to you?
 
 + WIP
 + fix issues crated by cleanup
@@ -94,22 +94,27 @@ Which of these commit messages are clear to you?
 + small changes in tools
 
 ## Conventional Commits
-The Conventional Commits specification is a lightweight convention on top of commit messages. It provides an easy set of rules for creating an explicit commit history; which makes it easier to write automated tools on top of. This convention dovetails with SemVer, by describing the features, fixes, and breaking changes made in commit messages.
 
-The commit message should be structured as follows:
++ A lightweight specification for git commit messages 
++ Creates an explicit history
++ simplifies automated tooling
++ Maps directly to Semantic Versioning
 
-<type>[optional scope]: <description>
+See
+<https://www.conventionalcommits.org/>
 
-[optional body]
+## Conventional Commits Prefixes {.small}
 
-[optional footer(s)]
-The commit contains the following structural elements, to communicate intent to the consumers of your library:
-
-fix: a commit of the type fix patches a bug in your codebase (this correlates with PATCH in Semantic Versioning).
-feat: a commit of the type feat introduces a new feature to the codebase (this correlates with MINOR in Semantic Versioning).
-BREAKING CHANGE: a commit that has a footer BREAKING CHANGE:, or appends a ! after the type/scope, introduces a breaking API change (correlating with MAJOR in Semantic Versioning). A BREAKING CHANGE can be part of commits of any type.
-types other than fix: and feat: are allowed, for example @commitlint/config-conventional (based on the Angular convention) recommends build:, chore:, ci:, docs:, style:, refactor:, perf:, test:, and others.
-footers other than BREAKING CHANGE: <description> may be provided and follow a convention similar to git trailer format.
+  * **`fix`**: Patches a bug
+  * **`feat`**: Adds a new feature
+  * **`build`**: Changes that affect the build system
+  * **`chore`**: Changes that don't modify `src` or tests
+  * **`ci`**: Changes to continuous integration config
+  * **`docs`**: Documentation-only changes.
+  * **`style`**: Changes that do not affect the meaning of the code
+  * **`refactor`**: Changes that neither fixes a bug nor adds a feature.
+  * **`perf`**: Changes that improves performance.
+  * **`test`**: Adding or correcting tests.
 
 ## Make more changes
 
