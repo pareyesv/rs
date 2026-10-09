@@ -95,9 +95,9 @@ It’s not the writing part that’s hard
 
 What’s hard is sitting down to write
 
-What keeps us from sitting down is *Resistance*
+What keeps us from sitting down is _Resistance_
 
-## Name it: *Resistance*
+## Name it: _Resistance_
 
 "Resistance cannot be seen, touched, heard, or smelled.
 
@@ -111,7 +111,7 @@ What keeps us from sitting down is *Resistance*
 
 ## Things that trigger Resistance
 
-"The following is a (partial) list of activities that often trigger *Resistance*:
+"The following is a (partial) list of activities that often trigger _Resistance_:
 
 > + Any creative art calling in writing, painting, music, etc.
 > + Any entrepreneurial venture or enterprise
@@ -120,9 +120,9 @@ What keeps us from sitting down is *Resistance*
 
 ## In other words
 
-* Any act that rejects immediate gratification in favor of long-term growth, health, or integrity
++ Any act that rejects immediate gratification in favor of long-term growth, health, or integrity
 
-* Any act that derives from our higher nature
++ Any act that derives from our higher nature
 
 Any of these will elicit Resistance.
 
@@ -162,19 +162,22 @@ Use it as a compass
 
 ![](../shared/images/writting-for-busy-readers.jpg)
 
-* Less is more
-* Design for easy navigation
-* Emphasize why they should care
-* Make reading easy
-* Use enough formatting, but no more
-* Make responding easy
++ Less is more
++ Design for easy navigation
++ Emphasize why they should care
++ Make reading easy
++ Use enough formatting, but no more
++ Make responding easy
 
-
-They provide a *prompt* for rewriting your text, and a checklist
+They provide a _prompt_ for rewriting your text, and a checklist
 
 ::: source
-https://writingforbusyreaders.com/resources/
+<https://writingforbusyreaders.com/resources/>
 :::
+
+## Teaching and Presenting {.full-v}
+
+![alt text](../shared/images/if-i-understood.jpg)
 
 ## Other books {.full-v .shadow}
 
