@@ -1,19 +1,57 @@
 ---
-title: 'Good Practices: Intro'
-subtitle: "Bootcamp on Generative AI"
-author: Andrés Aravena, PhD
-date: "November 13, 2025"
+title: 'Good Practices'
+subtitle: "A talk for Barcelona Supercomputing Center's Ph.D. students"
 lang: en
 cSpell: ignore Supercomputing Feibelman Annesley Derish nocite INRIA Toggl Kanare Nepomuceno Cipriano Vozza sentenc cookiecutter pomodoro cest cedt ecst mesz cookiecutter tiago schuster lazygit
 ---
 
-## We want to present some ideas on good practices for professional work {.center}
+## **Welcome to Ph.D. student's life** {.center .Large}
+
+Congratulations, by the way
+
+## Doing a Ph.D. is an amazing experience {.center}
+
+But it can also be stressful
+
+## We want to present some ideas <br/> on how to (successfully) <br/> survive  your Ph.D. {.center}
 
 ## Some of them are endorsed by research {.center}
 
 ## Some of them are personal opinions {.center}
 
 (informed by shared experiences)
+
+## I am Andres Aravena
+
++ Senior AI Engineer at Elevate Srl (Venice)
+  + Previously known as Ennova-Research
++ Former academic at Istanbul University
++ Mathematical Engineer, U. of Chile
++ PhD Informatics, INRIA–U Rennes 1, France
++ PhD Mathematical Modeling, U. of Chile
+
+## I used to teach Bioinformatics
+
+That is, a mix of Biology and Informatics
+
+Every class **50%** of my students were *bored*
+
++ Some said I teach obvious things
++ Some said I teach incomprehensible things
+
+The *50%* changed every class
+
+Today will be similar
+
+<!-- ## Plan
+
++ Part 1
++ Short break
++ Part 2
++ Long break
++ Part 3
++ Short break
++ Part 4 -->
 
 ## Focus on Philosophy, not Tools
 
@@ -53,7 +91,7 @@ We misremember a lot
 
 **Solution:** Use a journal
 
-## We are bad at estimating projects' complexity
+## We are bad at estimating projects' complexity {.small}
 
 We think that we can finish a project in less time that it will really take
 
@@ -63,7 +101,7 @@ We think that we can finish a project in less time that it will really take
   + Tools like *Toggl Track* can also be used
 + Reflect on how did you use your time
 
-# Good practice 1 {.center .good}
+# Good practice 1  {.center .good}
 
 Use a journal or a lab notebook
 
@@ -97,13 +135,15 @@ You should at least carry a lab notebook in digital format
 Kanare, H. M. (1985). *Writing the laboratory notebook*. American Chemical Society.  
 :::
 
-## Logbooks and Commonplace books
+## Logbooks
 
 In the navy it is a standard practice to *log* everything
 
 It was the 18th century version of a plane's black box
 
-It was also typical for writers to carry a notebook to write notable extracts from texts
+## Commonplace books
+
+It was typical for writers to carry a notebook to write notable extracts from texts
 
 This was called a *Commonplace book*
 
@@ -132,10 +172,10 @@ show my BuJo.
 Don't believe the fancy BuJo you see on the web. They do not need to be beautiful
 :::
 
-## Key Ideas
+## Key Ideas {.small}
 
 + Do not trust your memory
-  + "Your mind is for having ideas, not holding them"
+  + *"Your mind is for having ideas, not holding them"*
 + Write how you solved each problem every day
 + Write what you learned every day
   + "Today I learned..."
@@ -152,17 +192,17 @@ Allen, D. (2015). *Getting things done: The art of stress-free productivity.* Pe
 
 (other ways our mind fools us)
 
-## We think that everybody knows what we know, so they do not need explanations
+## We think that everybody knows what we know, so they do not need explanations {.small}
 
 This is the *curse of knowledge*
 
 > "I understand it, so everybody understands it"
 
-It is **the main reason** why our text is hard to read
+It is **the main reason** why it is hard to read what we write
 
-**Solution:** This one I'm still trying to figure out. Practice.
+**Solution:** Practice. Empathy.
 
-## We think that everything we do is easy
+## We think that everything we do is easy {.small}
 
 This is *Impostor Syndrome*
 
@@ -175,7 +215,7 @@ and it is hard to see how much we have learned
 
 **Solution:** Look at your journal and *reflect* on how much have you learned in the last year
 
-## Impostor syndrome {.center .full-v}
+## Impostor syndrome {.center-h .full-v}
 
 <!-- source: https://imgs.xkcd.com/comics/impostor_syndrome_2x.png -->
 ![](../shared/images/xkcd-impostor-syndrome.png)
@@ -198,7 +238,7 @@ It is hard to improve if we don't know we are bad
 Kruger, J., & Dunning, D. (1999). Unskilled and unaware of it: How difficulties in recognizing one’s own incompetence lead to inflated self-assessments. *Journal of Personality and Social Psychology*, *77*(6), 1121–1134.
 :::
 
-## You are not your work {.center .good-inv .Large}
+## You are not your work {.center .good .Large}
 
 ## Two sides of the coin
 
@@ -210,7 +250,7 @@ To solve that, we can improve our *Communication* with colleagues and collaborat
 <https://www.explainxkcd.com/wiki/index.php/1954:_Impostor_Syndrome>  
 :::
 
-## **A Ph.D. goal is to produce and communicate new knowledge** {.center .black background="yellow" .Large}
+## **A Ph.D. goal is to produce and communicate new knowledge** {.center .black background="yellow" .large}
 
 (we call it "Doing Science")
 
@@ -230,7 +270,7 @@ Good practices help teamwork, by:
 + Coordinate next steps
 + Avoid work duplication
 
-## …but I work alone…
+<!-- ## …but I work alone…
 
 Even if we work alone, we are still communicating
 
@@ -241,7 +281,7 @@ Even if we work alone, we are still communicating
 + with the **general public**
 + with our **future self**
 
-Each one of these interactions can improve following a good practice
+Each one of these interactions can improve following a good practice -->
 
 ## Communicate with **your supervisor**
 
@@ -290,7 +330,7 @@ We need to be aware of the *ethical* implications
 + Privacy concerning test subject
 + Truth and academic integrity
 
-> This is reflected in the *Reproducibility Crisis*
+<!-- > This is reflected in the *Reproducibility Crisis* -->
 
 ## …with your **future self**
 
@@ -301,3 +341,5 @@ As they say: "The past is a foreign country"
 Undocumented code/protocols are hard to understand…
 
 and you can only blame yourself
+
+# Let's have a break now {.center .good}

@@ -108,7 +108,7 @@ Use a journal or a lab notebook
 
 ## Laboratory notebook {.fl-r .full-v .shadow}
 
-![](images/writing-lab-notebook.jpg)
+![](../shared/images/writing-lab-notebook.jpg)
 
 In experimental sciences we record every experiment in a paper notebook
 
@@ -150,7 +150,7 @@ Some other people used to write a _personal journal_ or _diary_
 
 ## Bullet journal {.fl-r .full-v .shadow}
 
-![](images/2022/BuJo.jpg)
+![](../shared/images/BuJo.jpg)
 
 A bullet journal is
 
@@ -216,7 +216,8 @@ and it is hard to see how much we have learned
 
 ## Impostor syndrome {.center .full-v}
 
-![](images/imgs.xkcd.com/comics/impostor_syndrome_2x.png)
+<!-- source: https://imgs.xkcd.com/comics/impostor_syndrome_2x.png -->
+![](../shared/images/xkcd-impostor-syndrome.png)
 
 ::: source  
 <https://xkcd.com/1954>

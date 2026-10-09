@@ -98,7 +98,7 @@ Use a journal or a lab notebook
 
 ## Laboratory notebook {.fl-r .full-v .shadow}
 
-![](images/writing-lab-notebook.jpg)
+![](../shared/images/writing-lab-notebook.jpg)
 
 In experimental sciences we record every experiment in a paper notebook
 
@@ -140,7 +140,7 @@ Some other people used to write a _personal journal_ or _diary_
 
 ## Bullet journal {.fl-r .full-v .shadow}
 
-![](/images/2022/BuJo.jpg)
+![](../shared/images/BuJo.jpg)
 
 A bullet journal is
 
@@ -206,7 +206,8 @@ and it is hard to see how much we have learned
 
 ## Impostor syndrome {.center .full-v}
 
-![](/images/imgs.xkcd.com/comics/impostor_syndrome_2x.png)
+<!-- source: https://imgs.xkcd.com/comics/impostor_syndrome_2x.png -->
+![](../shared/images/xkcd-impostor-syndrome.png)
 
 ::: source  
 <https://xkcd.com/1954>
@@ -404,7 +405,7 @@ That is, based on your name and the subject
 
 ## Does this work? {.shadow .center-h .full-h}
 
-![](images/no-subject-no-avatar.png)
+![](../shared/images/no-subject-no-avatar.png)
 
 ## Always write a Subject
 
@@ -443,7 +444,7 @@ This seems a good idea but I have never used it nor seen used by anybody
 
 ## What about this one? {.shadow .center-h .full-h}
 
-![](images/bad-avatar-1.png)
+![](../shared/images/bad-avatar-1.png)
 
 Have I seen this person before?
 
@@ -459,7 +460,7 @@ Your picture should show your face clearly
 
 ## And about this one? {.shadow .center-h .full-h}
 
-![](images/no-avatar-no-name.png)
+![](../shared/images/no-avatar-no-name.png)
 
 ## Always include your full name {.fl-r}
 

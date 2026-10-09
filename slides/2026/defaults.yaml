@@ -28,4 +28,6 @@ variables:
   geometry: margin=1in
   fontfamily: palatino
   papersize: a4paper
+  date: October 9, 2026
+  author: Andrés Aravena, PhD
 

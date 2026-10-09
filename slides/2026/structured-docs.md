@@ -2,12 +2,13 @@
 title: "Structured documents"
 description: "Writing documents that are easy to understand"
 author: Andrés Aravena, PhD
-date: "November 15, 2025"
-published: true
+date: "October 9, 2026"
 lang: en
-cspell: ignore Searls Cifuentes Goodbody rstudio dillinger stackedit MacFarlane draftin longnote calcofluor
+cspell: ignore Searls Cifuentes Goodbody rstudio dillinger stackedit MacFarlane draftin longnote calcofluor Lamport Entscheidungsproblem beamer
 mathjax: false
 ---
+
+# Structured Documents {.center .good}
 
 ## Structured documents
 
@@ -19,15 +20,18 @@ And you use _structured programs_
 
 The same applies to structuring our documents
 
-## Separation of concerns
+Maybe you have used LaTeX, or Markdown
 
-<!-- cSpell:ignore Lamport Entscheidungsproblem beamer -->
+Maybe you know HTML
 
-Separate style from structure
+## Separation of concerns {.large}
+
+The key idea is to describe _what things are_,  
+not _how they look_
 
 Describe the role of text, not the "looks"
 
-The key idea is to describe _what things are_, not _how they look_
+Separate style from structure
 
 ::: source
 This part is based on the ideas discussed in "LaTeX: A Document Preparation System" by Leslie Lamport (1986).
@@ -43,7 +47,7 @@ Structure of the walls come first
 
 Painting the walls in a nice color is secondary
 
-## Structural elements
+## Structural elements {.small}
 
 + Sections, subsections, paragraphs
 + Figures and Tables
@@ -53,7 +57,9 @@ Painting the walls in a nice color is secondary
 + Metadata
   + Title
   + Authors
-  + Dates
+  + Affiliations
+  + Dates: submission, acceptance
+  + Media/format
 
 ## Structured Word documents {.no-gap .center-h .full-v .shadow}
 
@@ -65,7 +71,7 @@ Painting the walls in a nice color is secondary
 
 # Text documents are good {.good .center}
 
-## Text files are for humans and computers
+## Text files are for humans and computers {.small}
 
 + Binary files are hard to read
   + unless you have the correct program
@@ -75,7 +81,7 @@ Painting the walls in a nice color is secondary
   + Data must be **recyclable**
   + The output of one program may be the input of another program
 
-## Text editors instead of Word processors {.large}
+## Text editors instead of Word processors
 
 The easiest way to handle _text files_ is to use a **text editor**
 
@@ -87,7 +93,7 @@ They use a monospaced font, like Courier
 Each letter has the same width
 ```
 
-## Text editor have syntax coloring {.large}
+## Text editor have syntax coloring
 
 Since each letter has the same size, text editor use color
 
@@ -107,9 +113,9 @@ Free
 
 Never get obsolete
 
-# But they do not have structure {.good-inv .center}
+# But they do not have structure {.good .center}
 
-## Structured Documents {.large}
+## Structured Documents {.small}
 
 We want to identify the _meaning_, not the _shapes_
 
@@ -125,7 +131,8 @@ NOT _bold_ or _italic_ or _centered_
 
 ## Separation of concerns in practice
 
-The key idea is to describe _what things are_, not _how they look_
+The key idea is to describe _what things are_,  
+not _how they look_
 
 Describe the role of text, not the "looks"
 
@@ -133,7 +140,7 @@ Separate style from structure
 
 # Structure without style {.center .good}
 
-## Text files with structure
+## Text files with structure {.small}
 
 There are several markup languages that encode the structure of a _text_ document
 
@@ -218,7 +225,7 @@ We cannot say the same about Microsoft Word
 + Math formulas
 + Bibliographic references
 
-## Writing Math Expressions
+## Writing Math Expressions {.small}
 
 LaTeX is favored by people who writes mathematical formulas
 

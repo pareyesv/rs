@@ -1,8 +1,6 @@
 ---
-title: 'Good Practices: Collaboration'
+title: 'Collaboration'
 subtitle: "A talk for BSC's Ph.D. students"
-author: Andrés Aravena, PhD
-date: "October 7, 2025"
 lang: en
 cSpell: ignore Supercomputing Feibelman Annesley Derish nocite INRIA Toggl Kanare Nepomuceno Cipriano Vozza sentenc cookiecutter pomodoro cest cedt ecst mesz cookiecutter tiago schuster lazygit
 ---
@@ -32,7 +30,7 @@ Several people can work in the same document at the same time
 
 But they require a permanent internet connection
 
-## Where to store it
+## Where to store it {.small}
 
 + In the server only
 
@@ -94,7 +92,7 @@ Suggested for data analysis projects
 
 ![](../shared/images/folder-struct.svg)
 
-## Role of each folder
+## Role of each folder {.small}
 
 + `data` is anything that you get from outside the computer
 + `results` is what your code produces
@@ -155,6 +153,9 @@ Check periodically that you are following your standard
 
 ## Examples
 
+:::::: columns-2
+::: col
+
 ### Bad Example
 
 ```
@@ -166,6 +167,10 @@ Check periodically that you are following your standard
 results-01-03-09.txt
 ```
 
+:::
+
+::: col
+
 ### Good Example
 
 ```
@@ -176,6 +181,9 @@ results-01-03-09.txt
 10-conclusions.docx
 2009-01-03-results.txt
 ```
+
+:::
+::::::
 
 ## Another Good Example
 
@@ -204,7 +212,7 @@ Sorting alphabetically, numerically, and chronologically give the same result
 
 # Define your projects {.center .good}
 
-## What is a "project"?
+## What is a "project"? {.small}
 
 <!-- cSpell:ignore cookiecutter tiago schuster -->
 
@@ -223,9 +231,9 @@ _Building a Second Brain_,
 Simon and Schuster, 2022  
 :::
 
-## Spaces
+## Spaces {.small}
 
-Personally I like to group my Projects/Areas/Resources/ Archives by major topic
+Personally I group my Projects/Areas/Resources/Archives as follows
 
 :::small
 
@@ -266,7 +274,7 @@ It is better to make readers feel smart
 it has been my case  
 :::
 
-## Version control
+## Version control {.small}
 
 If you develop code (or documents in text format), you will probably keep track of it in some _Version Control System_
 
@@ -278,7 +286,7 @@ Advantages
 4. Enables collaboration with many people, remotely
 5. Does not need permanent internet access
 
-## GIT
+## GIT {.small}
 
 By far the most used VCS is **Git**
 
@@ -289,7 +297,7 @@ It has a command line interface, and many tools handle it directly
 
 **Recommended:** if you use the command line, try `lazygit`
 
-## Commits
+## Commits {.small}
 
 The key idea is to record **the changes** between code versions
 
@@ -303,7 +311,7 @@ Each commit has a **descriptive message**. Example:
 + `1cddab7` cleanup backend (untested)
 + `484e061` small changes in tools
 
-## Commit messages should be imperative
+## Commit messages should be imperative {.small}
 
 As if you were giving an order
 
@@ -316,7 +324,7 @@ Which of these commit messages are clear to you?
 + cleanup backend (untested)
 + small changes in tools
 
-## Branches
+## Branches {.small}
 
 To develop new code but keep the working version, _Git_ uses **branches**
 
@@ -328,7 +336,7 @@ The hard part is to **keep track** and **merge** them
 
 <!-- If two people modified the same part of a file, there will be a conflict -->
 
-## Online platforms and Issues
+## Online platforms and Issues {.small}
 
 Git is often used with a web platform like _GitHub_, _GitLab_, _BitBucket_ or similar, either public or private
 
@@ -344,7 +352,7 @@ The title should describe **what the state should be once the issue is solved**
 
 <!-- ## Examples of issue names -->
 
-## Branch names
+## Branch names {.small}
 
 A popular naming strategy is to use a prefix like `feature/` or `hotfix/`
 
@@ -356,7 +364,7 @@ These branches have names corresponding to the issue
 
 <https://github.com/anaraven/msr/issues/1>{target="_blank"}
 
-# Let's have the last break now {.center .good-inv}
+# Let's have the last break now {.center .good}
 
 <style>
 .reveal .block {

@@ -1,46 +1,18 @@
 ---
 title: "Recommended Books"
-subtitle: "A talk for BSC's Ph.D. students"
+subtitle: ""
 author: Andrés Aravena, PhD
-date: "October 7, 2025"
+date: "October 9, 2026"
 lang: en
 mathjax: false
 cSpell: ignore postit bujo maketime helü silvia zettelkasten
 ---
 
-# What to do? {.center .good}
-
-## Kanban {.fl-r .full-v .shadow}
-
-![](http://torak.com/wp-content/uploads/2016/04/kanban-board-simple3-1-02.png)
-
-+ Japanese idea
-+ Good for teams, but also personal
-+ Write tasks in postit cards
-+ Put the cards in three or more columns
-+ **Limit the size of _work in progress_**
-
-## Example {.full-v .shadow .center-h}
-
-<!-- source: https://www.5sensesll.com/wp-content/uploads/2020/04/IMG_3741-2.jpg -->
-![](images/kanban-example.jpg)
-
-## Digital version  {.full-v .shadow .center-h}
-
-<!-- source: https://docs.github.com/assets/cb-550210/mw-1440/images/help/projects-v2/example-board.webp -->
-![](images/github-project-board.webp)
-
-## Choosing what to do {.full-v .shadow .center-h}
-
-![](https://luxafor.dk/wp-content/uploads/2018/10/The-Eisenhower-Decision-Matrix-png.png)
-
-# When to do it? {.center .good}
-
-# Books {.center .good}
+<!-- # Books {.center .good} -->
 
 ## Getting Things Done {.fl-r .full-v .shadow}
 
-![GTD](images/GTD-2015.jpg)
+![GTD](../shared/images/GTD-2015.jpg)
 
 + Collect everything in few _inboxes_
   + Mail Inbox
@@ -63,7 +35,7 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 
 ## Make Time {.fl-r .full-v .shadow}
 
-![maketime](images/maketime.jpg)
+![maketime](../shared/images/maketime.jpg)
 
 + Highlight
   + How do you want to remember this day?
@@ -76,17 +48,26 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 
 ## Digital Minimalism  {.fl-r .full-v .shadow}
 
-<!-- source: https://cdn.dc5.ro/img-prod/694670713-0.jpeg -->
-![](images/digital-minimalism.jpeg)
+![minim](../shared/images/digital-minimalism.jpeg)
 
 + Avoid social media
 + It is an addiction
 + "Information Obesity"
 + "Cheap Calories"
 
+<!-- source: https://cdn.dc5.ro/img-prod/694670713-0.jpeg -->
+
+## Deep work {.fl-r .full-v .shadow}
+
+![](../shared/images/deep-work.jpg)
+
+Block time away from interruptions
+
+Use a calendar to block half days
+
 ## Pomodoro Technique {.fl-r .full-v .shadow}
 
-![pomodoro](images/pomodoro.jpg)
+![pomodoro](../shared/images/pomodoro.jpg)
 
 + Avoid procrastination
 + Commit to work for 25 minutes
@@ -95,17 +76,9 @@ cSpell: ignore postit bujo maketime helü silvia zettelkasten
 + Use any timer, even a kitchen one
 + Stop for 5 minutes at the end of each cycle
 
-## Deep work {.fl-r .full-v .shadow}
-
-![](https://tldv-wordpress.s3.us-east-2.amazonaws.com/media/20210405043801/Deep-Work-by-Cal-Newport-Book.jpg)
-
-Block time away from interruptions
-
-Use a calendar to block half days
-
 ## The Art of War {.fl-r .full-v .shadow}
 
-![](images/art-of-war.jpg)
+![](../shared/images/art-of-war.jpg)
 
 + Chinese general
 + minister to King Helü of Wu
@@ -114,17 +87,17 @@ Use a calendar to block half days
 
 ## The War of Art {.fl-r .full-v .shadow}
 
-![](images/war-of-art.jpg)
+![](../shared/images/war-of-art.jpg)
 
 "There’s a secret that real writers know that wannabe writers don’t, and the secret is this:
 
-It’s not the writing part that’s hard.
+It’s not the writing part that’s hard
 
-What’s hard is sitting down to write.
+What’s hard is sitting down to write
 
-What keeps us from sitting down is Resistance.
+What keeps us from sitting down is _Resistance_
 
-## Resistance
+## Name it: _Resistance_
 
 "Resistance cannot be seen, touched, heard, or smelled.
 
@@ -138,25 +111,22 @@ What keeps us from sitting down is Resistance.
 
 ## Things that trigger Resistance
 
-"The following is a list, in no particular order, of activities that often trigger Resistance:
+"The following is a (partial) list of activities that often trigger _Resistance_:
 
-## 1. The pursuit of any calling in writing, painting, music, film, dance, or any creative art, however marginal or unconventional
-
-## 2. The launching of any entrepreneurial venture or enterprise, for profit or otherwise
-
-## 3. Any diet or health regimen
-
-## 6. Any course or program designed to overcome an unwholesome habit or addiction
+> + Any creative art calling in writing, painting, music, etc.
+> + Any entrepreneurial venture or enterprise
+> + Any diet or health regimen
+> + Any program designed to overcome a habit or addiction
 
 ## In other words
 
-any act that rejects immediate gratification in favor of long-term growth, health, or integrity.
++ Any act that rejects immediate gratification in favor of long-term growth, health, or integrity
 
-any act that derives from our higher nature instead of our lower.
++ Any act that derives from our higher nature
 
 Any of these will elicit Resistance.
 
-## Resistance marks the way {.center .black background="var(--color-yellow)"}
+## Resistance marks the way {.center .black background="var(--color-yellow)" .Large}
 
 Use it as a compass
 
@@ -164,7 +134,7 @@ Use it as a compass
 
 ## How to write a lot {.fl-r .full-v .shadow}
 
-![silvia](images/writeAlot.jpg){style="height: 300px"}
+![silvia](../shared/images/write-a-lot.jpg)
 
 + Write every day
 + Get into the "writing addiction"
@@ -174,7 +144,7 @@ Use it as a compass
 ## Second Brain {.fl-r .full-v .shadow}
 
 <!-- source: https://static.hebban.nl/covers/00000650/normal/41m03vfrcQL._SX327_BO1%2C204%2C203%2C200_.jpg -->
-![](images/second-brain.jpg)
+![](../shared/images/smart-notes.jpg)
 
 + Zettelkasten
 + Write summaries with your own words
@@ -182,12 +152,55 @@ Use it as a compass
 + Write a link to other cards related to the new one
 + Can be done in paper, or in the computer
 
-## Tools
+## The other Second Brain {.fl-r .full-v .shadow}
 
-+ Evernote
-+ Notion
-+ Roaming research
-+ Obsidian
+![alt text](../shared/images/second-brain.jpg)
+
+## Writing for busy readers {.shadow .full-v .fl-r}
+
+<!-- m.media-amazon.com/images/I/71ZDBqlXpyL._SL1500_.jpg -->
+
+![](../shared/images/writting-for-busy-readers.jpg)
+
++ Less is more
++ Design for easy navigation
++ Emphasize why they should care
++ Make reading easy
++ Use enough formatting, but no more
++ Make responding easy
+
+They provide a _prompt_ for rewriting your text, and a checklist
+
+::: source
+<https://writingforbusyreaders.com/resources/>
+:::
+
+## Teaching and Presenting {.full-v}
+
+![alt text](../shared/images/if-i-understood.jpg)
+
+## Other books {.full-v .shadow}
+
+:::::: columns-2
+::: col
+![alt text](../shared/images/philosophy-of-software-design.jpg)
+:::
+::: col
+![alt text](../shared/images/how-to-go-to-the-office.jpg)
+:::
+::::::
+
+## More books {.full-v .shadow}
+
+:::::: columns-2
+::: col
+![alt text](../shared/images/surrounded-by-idiots.jpg)
+
+:::
+::: col
+![alt text](../shared/images/great-work-without-being.jpg)
+:::
+::::::
 
 <style>
   figcaption {display: none}
