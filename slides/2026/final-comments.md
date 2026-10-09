@@ -1,10 +1,9 @@
 ---
 title: "Final Comments"
-description: "Writing documents that are easy to understand"
+subtitle: "Surviving your PhD"
 author: Andrés Aravena, PhD
 date: "October 9, 2026"
 lang: en
-cSpell: ignore Supercomputing Feibelman Annesley Derish nocite INRIA Toggl Kanare Nepomuceno Cipriano Vozza sentenc cookiecutter pomodoro cest cedt ecst mesz cookiecutter tiago schuster lazygit
 ---
 
 # Final comments {.center .good}
