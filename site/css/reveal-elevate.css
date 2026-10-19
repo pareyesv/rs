@@ -637,24 +637,28 @@ iframe.logo {
 }
 
 @media print {
-  .reveal section.level2 h2 {
+  .reveal section.level2 h2,
+  .reveal .pdf-page.level2 h2 {
     position: relative !important;
     top: 0 !important;
     margin-bottom: 0.5em !important;
   }
 
-  /* Force content and icons to be above the background */
-  .reveal section.level1 > *,
-  .reveal section.level2 > *,
-  .reveal section.level1::after,
-  .reveal section.level2::after,
-  .reveal .slides > section:first-child::before {
+  /* Force content, icons and slide numbers to be above the background */
+  .reveal section > *,
+  .reveal .pdf-page > *,
+  .reveal section::after,
+  .reveal section::before,
+  .reveal .pdf-page::after,
+  .reveal .pdf-page::before,
+  .reveal .slide-number-pdf {
     z-index: 100 !important;
   }
 
   /* Ensure backgrounds stay at the bottom */
-  .reveal .slide-background {
-    z-index: 0 !important;
+  .reveal .slide-background,
+  .reveal .pdf-page .slide-background {
+    z-index: -1 !important;
   }
 
   /* Fix full-v images and svgs positioning */
