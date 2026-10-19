@@ -635,3 +635,31 @@ iframe.logo {
     width: 320px;
     height: 310px;
 }
+
+@media print {
+  .reveal section.level2 h2 {
+    position: relative !important;
+    top: 0 !important;
+    margin-bottom: 0.5em !important;
+  }
+
+  /* Force content and icons to be above the background */
+  .reveal section.level1 > *,
+  .reveal section.level2 > *,
+  .reveal section.level1::after,
+  .reveal section.level2::after,
+  .reveal .slides > section:first-child::before {
+    z-index: 100 !important;
+  }
+
+  /* Ensure backgrounds stay at the bottom */
+  .reveal .slide-background {
+    z-index: 0 !important;
+  }
+
+  /* Fix full-v images and svgs positioning */
+  .reveal .full-v img,
+  .reveal .full-v svg {
+    bottom: 0 !important;
+  }
+}
